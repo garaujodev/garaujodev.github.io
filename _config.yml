@@ -23,6 +23,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: garaujodev
 github_username:  garaujodev
+instagram_username: gustavoraujo
 
 # Build settings
 markdown: kramdown
@@ -38,8 +39,12 @@ plainwhite:
   name: Gustavo Araújo
   tagline: Desenvolvedor
   date_format: "%-d %b, %Y"
-
-
+  analytics_id: "UA-169303444-1"
+  sitemap: true
+  search: true
+  navigation:
+    - title: Sobre
+      url: "/about"
   social_links:
     twitter: garaujodev
     github: garaujodev

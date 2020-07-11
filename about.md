@@ -1,18 +1,26 @@
 ---
-layout: page
-title: About
+title: Sobre
 permalink: /about/
+layout: page
+excerpt: Analista de sistemas, apaixonado por tecnologia, gamer e músico nas horas vagas. Escrevendo sobre meu dia a dia como desenvolvedor, como aprendizados e conquistas. Blog rodando sobre o Jekyll
+comments: false
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+### Sobre mim
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Analista de sistemas, apaixonado por tecnologia, gamer e músico nas horas vagas. Atualmente
+desenvolvedor Ruby na [SourceLevel](https://sourcelevel.io).
+Escrevendo sobre meu dia a dia como desenvolvedor, como aprendizados e conquistas.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Se você tiver uma dúvida (ou quiser tomar um café), sinta-se livre para me contatar.
 
+### Agradecimentos
 
-[jekyll-organization]: https://github.com/jekyll
+Meus agradecimentos a todas as pessoas sensacionais que tenho conhecido durante essa jornada, em especial os meus amigos da [SourceLevel](https://sourcelevel.io), especialmente [Weverton Timóteo](https://wevtimoteo.github.io/) e [Gustavo Dutra](https://gustavodutra.com/), que me inspiraram a criar esse blog.
+
+#### Talvez voce precise ✨
+
+- {{ site.email }}
+- github.com/{{ site.github_username }}
+- twitter.com/{{ site.twitter_username }}
+- instagram.com/{{ site.instagram_username }}
