@@ -30,6 +30,9 @@ theme: plainwhite
 remote_theme: thelehhman/plainwhite-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 
 plainwhite:
   name: Adam Denisov
