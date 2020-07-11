@@ -13,16 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Gustavo Araújo - Blog
+email: garaujodev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Analista de sistemas, apaixonado por tecnologia,
+  gamer e músico nas horas vagas.
+  Escrevendo sobre meu dia a dia como desenvolvedor: aprendizados e conquistas
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://garaujodev.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: garaujodev
+github_username:  garaujodev
 
 # Build settings
 markdown: kramdown
@@ -35,15 +35,15 @@ plugins:
   - jekyll-feed
 
 plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
-  date_format: "%b %-d, %Y"
+  name: Gustavo Araújo
+  tagline: Desenvolvedor
+  date_format: "%-d %b, %Y"
 
 
   social_links:
-    twitter: thelehhman
-    github: thelehhman
-    linkedIn: in/thelehhman # format: locale/username
+    twitter: garaujodev
+    github: garaujodev
+    linkedIn: in/garaujodev # format: locale/username
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
