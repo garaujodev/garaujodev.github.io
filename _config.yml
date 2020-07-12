@@ -42,6 +42,7 @@ plainwhite:
   analytics_id: "UA-169303444-1"
   sitemap: true
   search: false
+  dark_mode: true
   navigation:
     - title: Sobre
       url: "/about"
