@@ -1,5 +1,5 @@
 ---
-title: Sobre
+title: Gustavo Araujo - Sobre
 permalink: /about/
 layout: page
 excerpt: Analista de sistemas, apaixonado por tecnologia, gamer e músico nas horas vagas. Escrevendo sobre meu dia a dia como desenvolvedor, como aprendizados e conquistas. Blog rodando sobre o Jekyll
