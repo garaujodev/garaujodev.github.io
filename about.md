@@ -20,7 +20,7 @@ Meus agradecimentos a todas as pessoas sensacionais que tenho conhecido durante 
 
 #### Talvez voce precise ✨
 
-- {{ site.email }}
-- github.com/{{ site.github_username }}
-- twitter.com/{{ site.twitter_username }}
-- instagram.com/{{ site.instagram_username }}
+- [{{ site.email }}](mailto:{{ site.email }})
+- [GitHub](github.com/{{ site.github_username }})
+- [Twitter](twitter.com/{{ site.twitter_username }})
+- [Instagram](instagram.com/{{ site.instagram_username }})
