@@ -22,7 +22,7 @@ culturais (inclusive esse foi o motivo de eu me candidatar para a vaga).
 Eu já havia desenvolvido aplicações em Rails (SourceLevel usa Ruby como linguagem principal),
 porém cada aplicação Rails tem suas particularidades. Mesmo recebendo acompanhamento de alguém que
 já está familiarizado com o código nesse processo de onboarding, a melhor forma de você se
-contextualizar com o que é praticado é lendo o código. Ele é o resultado final.
+contextualizar com os padrões e costumes praticados pelo time é lendo o código. Ele é o resultado final.
 De nada adiantam várias reuniões internas para ajustar questões culturais e técnicas, se no
 final das contas isso não é transcrito para o código. Portanto, ele sempre vai ser sua melhor referência.
 
