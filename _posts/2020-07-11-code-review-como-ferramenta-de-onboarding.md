@@ -12,14 +12,14 @@ se adequar a arquitetura utilizada. Para a empresa, é um momento de integrar al
 contextualizá-lo sobre como as coisas funcionam, compartilhar aspectos culturais.
 É nesse momento que buscamos nos alinhar com o time.
 
-Entrando como desenvolvedor na SourceLevel, não foi diferente.
+Entrando como desenvolvedor na [SourceLevel](https://sourcelevel.io), não foi diferente.
 Em um primeiro momento, percebi que teria bastante dificuldade, pois a empresa nesse momento
 já adotava uma cultura que eu ainda não tinha vivenciado pelos lugares onde passei.
 Por ser uma startup com um produto voltado à qualidade de código e aprimoramento contínuo de
 equipes, faz mais que sentido ela adotar boas práticas internas, tanto de desenvolvimento quantos
 culturais (inclusive esse foi o motivo de eu me candidatar para a vaga).
 
-Eu já havia desenvolvido aplicações em Rails (SourceLevel usa Ruby como linguagem principal),
+Eu já havia desenvolvido aplicações em Rails ([SourceLevel](https://sourcelevel.io) usa Ruby como linguagem principal),
 porém cada aplicação Rails tem suas particularidades. Mesmo recebendo acompanhamento de alguém que
 já está familiarizado com o código nesse processo de onboarding, a melhor forma de você se
 contextualizar com os padrões e costumes praticados pelo time é lendo o código. Ele é o resultado final.
@@ -32,7 +32,7 @@ o código foi escrito. Mas essa é uma prática que pode ser acelerada se você 
 que geraram tal código, as melhorias sugeridas, bem como o código era anteriormente, em outras
 palavras, como ele evoluiu com o passar dos tempos.
 
-Quando o produto ainda se tratava de uma ferramenta interna da extinta Plataformatec, e ainda
+Quando o produto ainda se tratava de uma ferramenta interna da extinta [Plataformatec](https://computerworld.com.br/2020/01/07/nubank-anuncia-compra-da-plataformatec-para-reforcar-time-de-software/), e ainda
 chamado Ebert, os desenvolvedores já utilizavam boas práticas. Eram bastante alinhados em questões
 culturais e faziam revisão de código, mesmo com uma equipe pequena. Muitos consideram como algo
 desnecessário para equipes pequenas, mas no meu onboarding foi fundamental, pois eu tinha a disposição
