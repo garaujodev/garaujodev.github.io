@@ -21,6 +21,6 @@ Meus agradecimentos a todas as pessoas sensacionais que tenho conhecido durante 
 #### Talvez voce precise ✨
 
 - [{{ site.email }}](mailto:{{ site.email }})
-- [GitHub](github.com/{{ site.github_username }})
-- [Twitter](twitter.com/{{ site.twitter_username }})
-- [Instagram](instagram.com/{{ site.instagram_username }})
+- [GitHub](https://github.com/{{ site.github_username }})
+- [Twitter](https://twitter.com/{{ site.twitter_username }})
+- [Instagram](https://instagram.com/{{ site.instagram_username }})
