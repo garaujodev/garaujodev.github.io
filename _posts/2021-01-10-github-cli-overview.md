@@ -27,7 +27,7 @@ Com a ferramenta, você consegue abrir um *Pull Request* pelo mesmo terminal que
 
 Como não é bem o foco aqui, vou deixar a recomendação de consultar a [própria documentação](https://github.com/cli/cli#installation).
 
-Após instalar, rode o seguinte comando para testar o funcionamento e já verificar todos os comandos:
+Após instalar, execute o seguinte comando para testar o funcionamento e já verificar todos os comandos:
 
 ```bash
 $ gh --help
@@ -69,7 +69,7 @@ Abaixo temos algumas das coisas interessantes que essa ferramenta nos permite fa
 
 ## Pull Requests
 
-- Abrir um *Pull Request*
+- Abrir um *Pull Request*:
 
     ```bash
     $ gh pr create
@@ -79,7 +79,7 @@ Abaixo temos algumas das coisas interessantes que essa ferramenta nos permite fa
 
     Algum dos parâmetros interessantes que temos aqui:
 
-    Com o parâmetro `-B` podemos especificar o base branch, isto é, para qual branch essas alterações serão enviadas após o merge:
+    - Com o parâmetro `-B` podemos especificar o base branch, isto é, para qual branch essas alterações serão enviadas após o merge:
 
     ```bash
     $ gh pr create -B main
@@ -87,9 +87,9 @@ Abaixo temos algumas das coisas interessantes que essa ferramenta nos permite fa
 
     - Com o parâmetro `-d` podemos especificar que se trata de um *[Draft Pull Request](https://docs.github.com/pt/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests#pull-requests-de-rascunho):*
 
-      ```bash
-      $ gh pr create -d
-      ```
+    ```bash
+    $ gh pr create -d
+    ```
 
 - Fechar/reabrir um *Pull Request:*
 
