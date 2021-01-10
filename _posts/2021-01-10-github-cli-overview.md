@@ -173,6 +173,6 @@ Abaixo temos algumas das coisas interessantes que essa ferramenta nos permite fa
 
 ### Considerações finais
 
-Com certeza é uma ferramenta sensacional, que, se bem usada nos poupa bastante tempo. Então  fica o questionamento: **Você acha que ela é útil pra você? Tem usado?** Me ****Conta nos comentários!
+Com certeza é uma ferramenta sensacional, que, se bem usada nos poupa bastante tempo.
 
 Caso tenham dúvidas, sintam-se a vontade para me contatar via [Twitter](http://twitter.com/garaujodev) 😉
