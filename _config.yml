@@ -49,7 +49,7 @@ plainwhite:
     twitter: garaujodev
     github: garaujodev
     linkedIn: in/garaujodev # format: locale/username
-
+  portfolio_image:  "assets/portfolio.png"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
