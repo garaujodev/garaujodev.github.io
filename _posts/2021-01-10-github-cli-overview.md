@@ -124,7 +124,7 @@ Abaixo temos algumas das coisas interessantes que essa ferramenta nos permite fa
 - Verificar os *status checks* de um *Pull Request* aberto, como o *CI*:
 
     ```bash
-     $ gh pr checks
+    $ gh pr checks
     ```
 
 - Verificar seu status de *Pull Requests:*
@@ -154,13 +154,13 @@ Abaixo temos algumas das coisas interessantes que essa ferramenta nos permite fa
 - Listar *Issues:*
 
     ```bash
-     *$* gh issue list
+    $ gh issue list
     ```
 
 - Ver uma *Issue:*
 
     ```bash
-     *$* gh issue view
+    $ gh issue view
     ```
 
 - Verificar seu status de *Issues:*
