@@ -17,8 +17,7 @@ title: Gustavo Araújo - Blog
 email: garaujodev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Analista de sistemas, apaixonado por tecnologia,
-  gamer e músico nas horas vagas.
-  Escrevendo sobre meu dia a dia como desenvolvedor: aprendizados e conquistas
+  Escrevendo sobre minha jornada como desenvolvedor: aprendizados e conquistas
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gustavoaraujo.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: garaujodev
