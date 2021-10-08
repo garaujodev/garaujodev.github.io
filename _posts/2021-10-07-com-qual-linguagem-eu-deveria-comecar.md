@@ -2,7 +2,7 @@
 layout: post
 title: "Com qual linguagem eu deveria começar?"
 date: 2021-10-07 23:00:00 -0300
-categories: linguagens iniciantes opinioes
+categories: linguagens opinioes
 description: "Um parecer pessoal apontando meu ponto de vista em uma resposta a pergunta: Com qual linguagem eu deveria começar?"
 ---
 
