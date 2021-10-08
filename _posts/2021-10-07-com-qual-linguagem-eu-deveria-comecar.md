@@ -6,7 +6,7 @@ categories: linguagens iniciantes opinioes
 description: "Um parecer pessoal apontando meu ponto de vista em uma resposta a pergunta: Com qual linguagem eu deveria começar?"
 ---
 
-# Com qual linguagem eu deveria começar?
+### Porque essa dúvida existe?
 
 É bastante comum ver em discussões desse tipo, pessoas citando as linguagens que elas mesmas começaram,
 ou até mesmo o caminho que seguiu, isso nos leva a observar que, cada pessoa tem sua realidade,
@@ -29,13 +29,16 @@ saber o que fazer, e como fazer. Eu me refiro a padrões como REST por exemplo, 
 Você sabe como é? Sabe como funciona o protocolo HTTP? Se você for trabalhar com programação para desktop,
 é importante saber como funciona a alocação de memória, e até ir um pouco mais a fundo na arquitetura do sistema
 operacional. Essas são as coisas básicas que você precisa saber para se tornar um bom programador.
+
+### O que posso fazer?
+
 A minha recomendação pessoal é que a pessoa busque entender onde quer atuar: web, desktop, mobile, data science, etc.
 Acredito que a melhor forma de se fazer isso, é caindo de cabeça, experimentando, tirando suas próprias conclusões.
 Após ter se decidido, você vai ter um foco, e assim não vai se sentir perdido.
 
-Tem um site que gosto bastante, o [roadmap.sh](http://roadmap.sh). Como o próprio nome sugere, eles nos
-dá um roteiro de estudos para se tornar um desenvolvedor, seja backend, frontend, mobile, etc. Se formos
-analisar o roteiro para backend, ele cita vários outros assuntos antes de sugerir aprender uma linguagem:
+Tem um site que gosto bastante, o [roadmap.sh](http://roadmap.sh). Como o próprio nome sugere, ele nos
+dá um roteiro de estudos para se tornar um desenvolvedor, seja backend, frontend, mobile, etc.
+Vemos aqui um detalhe: Ele cita vários outros assuntos antes de sugerir aprender uma linguagem.
 
 ![Roadmap.sh - backend](/assets/com-qual-linguagem-comecar/roadmap-backend.png)
 
