@@ -6,7 +6,7 @@ categories: linguagens opinioes
 description: "Um parecer pessoal apontando meu ponto de vista em uma resposta a pergunta: Com qual linguagem eu deveria começar?"
 ---
 
-### Porque essa dúvida existe?
+### Por que essa dúvida existe?
 
 É bastante comum ver em discussões desse tipo, pessoas citando as linguagens que elas mesmas começaram,
 ou até mesmo o caminho que seguiu, isso nos leva a observar que, cada pessoa tem sua realidade,
@@ -25,7 +25,7 @@ associado a uma linguagem. Estes são os conceitos, aquelas coisas que dificilme
 e padrões.
 
 É importante saber uma linguagem? Definitivamente, mas para usar uma linguagem devidamente, você precisa
-saber o que fazer, e como fazer. Eu me refiro a padrões como REST por exemplo, para construções de API.
+saber o que fazer, e como fazer. Eu me refiro a padrões como REST, por exemplo, para construções de API.
 Você sabe como é? Sabe como funciona o protocolo HTTP? Se você for trabalhar com programação para desktop,
 é importante saber como funciona a alocação de memória, e até ir um pouco mais a fundo na arquitetura do sistema
 operacional. Essas são as coisas básicas que você precisa saber para se tornar um bom programador.
