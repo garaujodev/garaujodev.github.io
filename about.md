@@ -2,17 +2,15 @@
 title: Gustavo Araujo - Sobre
 permalink: /about/
 layout: page
-excerpt: Analista de sistemas, apaixonado por tecnologia, gamer e músico nas horas vagas. Escrevendo sobre meu dia a dia como desenvolvedor, como aprendizados e conquistas. Blog rodando sobre o Jekyll
+excerpt: Desenvolvedor de sistemas apaixonado por tecnologia.
 comments: false
 ---
 
 ### Sobre mim
 
-Analista de sistemas, apaixonado por tecnologia, gamer e músico nas horas vagas. Atualmente
-desenvolvedor Ruby na [SourceLevel](https://sourcelevel.io).
-Escrevendo sobre meu dia a dia como desenvolvedor, como aprendizados e conquistas.
+Desenvolvedor de software apaixonado por tecnologia. Atualmente desenvolvedor na [SourceLevel](https://sourcelevel.io).
 
-Se você tiver uma dúvida (ou quiser tomar um café), sinta-se livre para me contatar.
+Se você tiver uma dúvida (ou quiser tomar um café), sinta-se livre para me enviar uma mensagem.
 
 ### Agradecimentos
 
