@@ -3,8 +3,7 @@ layout: post
 title: "Rubocop: Como instalar e configurar"
 date: 2022-01-09 17:11:14 -0300
 categories: qualidade linter ruby
-description: Aprenda a instalar e configurar o linter Rubocop, para garantir
-a consistência e padronização de sua codebase Ruby.
+description: Aprenda a instalar e configurar o linter Rubocop, para garantir a consistência e padronização de sua codebase Ruby.
 ---
 
 Que a qualidade de código é importante todo mundo sabe, mas você tem ou segue um guideline bem definido, para padronizar o seu código?
