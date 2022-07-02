@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ site.plainwhite.html_lang }}">
+
+<head>
+  {%- include head.html -%}
+</head>
+
+<body>
+  <main class="container">
+    <section class="content" style="text-align:center; max-width: 100%; margin-left: 0px; margin-top: 200px">
+      {{ content }}
+    </section>
+  </main>
+
+  {%- if site.plainwhite.analytics_id -%}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '{{ site.plainwhite.analytics_id }}');
+  </script>
+  {%- endif -%}
+</body>
+
+</html>
