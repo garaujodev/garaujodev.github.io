@@ -27,6 +27,7 @@ instagram_username: gustavoraujo
 
 # Build settings
 markdown: kramdown
+remote_theme: samarsault/plainwhite-jekyll
 theme: plainwhite
 plugins:
   - jekyll-feed
