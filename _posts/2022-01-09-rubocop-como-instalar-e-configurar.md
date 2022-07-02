@@ -2,7 +2,7 @@
 layout: post
 title: "Rubocop: Como instalar e configurar"
 date: 2022-01-09 17:11:14 -0300
-categories: qualidade linter ruby
+categories: ruby
 description: Aprenda a instalar e configurar o linter Rubocop, para garantir a consistência e padronização de sua codebase Ruby.
 ---
 

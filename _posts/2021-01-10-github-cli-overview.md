@@ -2,7 +2,7 @@
 layout: post
 title: "GitHub CLI: PRs, Issues e outros conceitos do GitHub direto no terminal"
 date: 2021-01-10 10:00:00 -0300
-categories: ferramentas terminal cli
+categories: ferramentas
 description: "Um overview sobre a nova ferramenta do GitHub: PRs, Issues e outros conceitos do GitHub direto no terminal"
 ---
 
