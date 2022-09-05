@@ -14,7 +14,7 @@ layout: blank
   </div>
 
   <div class="post-title">
-    <i class="icon-instagram"></i><a href="https://instagram.com/oclubedosprogramadores" target="_blank">Instagram</a>
+    <i class="icon-instagram"></i><a href="https://instagram.com/clubedosprogramadoresti" target="_blank">Instagram</a>
   </div>
 
   <div class="post-title">
