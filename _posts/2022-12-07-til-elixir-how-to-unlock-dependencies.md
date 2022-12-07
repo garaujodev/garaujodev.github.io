@@ -6,11 +6,11 @@ categories: elixir
 description: TODAY I LEARNED how to unlock dependencies removing the unused ones from your mix.lock file
 ---
 
-When you add new depencies to your elixir project, and run `mix.deps.get`, it will creates/updates the `mix.lock` file, that list all information about the versions of the dependencies that you are using, like version, source, etc.
+When you add new dependencies to your elixir project and run `mix deps.get`, it will create/update the `mix.lock` file, that list all information about the versions of the dependencies that you are using, such as version, source, etc.
 
-But when you remove a specific dependency from your `mix.exs` file, you will need to remove it from the `mix.lock` file to keep the file updated as possible.
+But when you remove a specific dependency from your `mix.exs` file, you will need to remove it from the `mix.lock` file to keep the file as updated as possible.
 
-But, NEVER update this file mannually, lets `mix` do it for you:
+But, NEVER update this file manually, let `mix` do it for you:
 
 ```bash
 mix deps.unlock NAME
@@ -30,7 +30,7 @@ So to keep your `mix.lock` file updated, just run:
 ```bash
 mix deps.unlock --unused --check-unused
 ```
-**Important note**: This command only unlock dependencies, to remove it completely, including build artifacts and fetched sources, you can use the following command:
+**Important note**: This command only unlocks dependencies, to remove it completely, including build artifacts and fetched sources, you can use the following command:
 
 ```bash
 mix deps.clean --unused --unlock
