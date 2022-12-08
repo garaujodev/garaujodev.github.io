@@ -17,8 +17,8 @@
 title: Gustavo Araújo - Blog
 email: garaujodev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Desenvolvedor de Software, apaixonado por tecnologia.
-  Escrevendo sobre assuntos técnicos
+  A software developer that loves to learn and share.
+  "Using this blog as an Idea Garden: A place to park your ideas" 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gustavoaraujo.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: garaujodev
@@ -37,14 +37,14 @@ plugins:
 
 plainwhite:
   name: Gustavo Araújo
-  tagline: Desenvolvedor de Software
+  tagline: Software Developer
   date_format: "%-d %b, %Y"
   analytics_id: "UA-169303444-1"
   sitemap: true
   search: false
   dark_mode: true
   navigation:
-    - title: Sobre
+    - title: About 
       url: "/about"
   social_links:
     twitter: garaujodev
