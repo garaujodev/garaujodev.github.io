@@ -2,7 +2,7 @@
 title: Gustavo Araujo - About
 permalink: /about/
 layout: page
-excerpt: A Software Developer that loves to learn and share
+excerpt: Who I Am? A Software Engineer that loves to learn and share. Passionate about coding and problem solving in general
 comments: false
 ---
 
