@@ -16,9 +16,7 @@
 
 title: Gustavo Araújo - Blog
 email: garaujodev@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A software developer that loves to learn and share.
-  "Using this blog as an Idea Garden: A place to park your ideas" 
+description: "A software developer that loves to learn and share. Using this blog as an Idea Garden: A place to park my ideas" 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gustavoaraujo.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: garaujodev
