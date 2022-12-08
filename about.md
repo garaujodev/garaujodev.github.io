@@ -8,7 +8,11 @@ comments: false
 
 ### About me
 
-A Software Developer passionate about coding and problem solving in general. Currently a Software Developer at [SourceLevel](https://sourcelevel.io)
+A Software Developer passionate about coding and problem solving in general. Currently, Software Developer at [SourceLevel](https://sourcelevel.io)
+
+I like to deal with different kinds of technologies, always applying my skills and learning new ones. I love to learn about databases and Ops.
+
+I'm learning about Functional Programming and Elixir, that's really impressing me.
 
 If you want to discuss something, or just drink a coffee, feel free to send me a message.
 
