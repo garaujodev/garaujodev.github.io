@@ -2,7 +2,7 @@
 layout: post
 title: Code Review como ferramenta de onboarding
 date: 2020-07-11 17:11:14 -0300
-categories: code-review
+categories: code-review portuguese
 description: Nesse post, compartilho como foi minha experiência ao entrar na SourceLevel, aprendendo melhor sobre a codebase, com base em histórico de Pull Requests e outras discussões.
 ---
 
