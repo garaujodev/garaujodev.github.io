@@ -19,9 +19,15 @@ email: garaujodev@gmail.com
 description: "A software developer that loves to learn and share. Using this blog as an Idea Garden: A place to park my ideas" 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gustavoaraujo.dev" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: garaujodev
 github_username:  garaujodev
 instagram_username: gustavoraaujo
+
+author: 
+  twitter: garaujodev
+  name: Gustavo Araujo
+  picture: "assets/portfolio.png"
 
 # Build settings
 markdown: kramdown
