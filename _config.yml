@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Gustavo Araújo - Blog
+title: Idea Garden - Gustavo Araujo
 email: garaujodev@gmail.com
 description: "A software developer that loves to learn and share. Using this blog as an Idea Garden: A place to park my ideas" 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -34,7 +34,7 @@ plugins:
   - jekyll-feed
 
 plainwhite:
-  name: Gustavo Araújo
+  name: Gustavo Araujo
   tagline: Software Developer
   date_format: "%-d %b, %Y"
   analytics_id: "UA-169303444-1"
