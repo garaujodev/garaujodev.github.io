@@ -3,7 +3,6 @@ layout: post
 title: "TIL: How to remove unused deps from mix.lock in Elixir"
 date: 2022-12-07 10:52:14 -0300
 categories: elixir
-image: "assets/portfolio.png"
 description: TODAY I LEARNED how to unlock dependencies removing the unused ones from your mix.lock file
 ---
 
