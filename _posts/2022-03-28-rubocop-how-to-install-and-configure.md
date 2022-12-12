@@ -3,6 +3,7 @@ layout: post
 title: "RuboCop: How to install and configure"
 date: 2022-03-28 10:52:14 -0300
 categories: ruby
+image: "assets/rubocop-linter/rubocop-cover.png"
 description: That Code quality is important, and any high-performing team knows it, but do you follow a guideline to standardize your codebase and make sure that everyone is going and looking in the same direction? Learn how to install and configure Rubocop linter.
 ---
 
