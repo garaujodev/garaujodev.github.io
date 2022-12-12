@@ -14,23 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Idea Garden - Gustavo Araujo
-email: garaujodev@gmail.com
+title: Idea Garden
+tagline: A place to park my ideas
 description: "A software developer that loves to learn and share. Using this blog as an Idea Garden: A place to park my ideas" 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gustavoaraujo.dev" # the base hostname & protocol for your site, e.g. http://example.com
 
-twitter_username: garaujodev
-github_username:  garaujodev
-instagram_username: gustavoraaujo
-
 twitter: 
   username: garaujodev
-
-author: 
-  twitter: garaujodev
-  name: Gustavo Araujo
-  picture: "assets/portfolio.png"
+  card: summary_large_image
 
 # Build settings
 markdown: kramdown
@@ -42,21 +34,29 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/portfolio.png
+
 plainwhite:
   name: Gustavo Araujo
   tagline: Software Developer
+  email: garaujodev@gmail.com
   date_format: "%-d %b, %Y"
   analytics_id: "UA-169303444-1"
   sitemap: true
   search: false
   dark_mode: true
   navigation:
-    - title: About 
+    - title: About me 
       url: "/about"
   social_links:
     twitter: garaujodev
     github: garaujodev
     linkedIn: in/garaujodev # format: locale/username
+    instagram: gustavoraaujo
   portfolio_image:  "assets/portfolio.png"
 
 # Exclude from processing.
