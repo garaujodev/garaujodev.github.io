@@ -1,5 +1,5 @@
 ---
-title: Gustavo Araujo - About
+title: About
 permalink: /about/
 layout: page
 excerpt: Who I Am? A Software Engineer that loves to learn and share. Passionate about coding and problem solving in general
@@ -18,7 +18,7 @@ If you want to discuss something, or just drink a coffee, feel free to send me a
 
 #### Reach me out ✨
 
-- [{{ site.email }}](mailto:{{ site.email }})
-- [GitHub](https://github.com/{{ site.github_username }})
-- [Twitter](https://twitter.com/{{ site.twitter_username }})
-- [Instagram](https://instagram.com/{{ site.instagram_username }})
+- [{{ site.plainwhite.email }}](mailto:{{ site.plainwhite.email }})
+- [GitHub](https://github.com/{{ site.plainwhite.social_links.github }})
+- [Twitter](https://twitter.com/{{ site.plainwhite.social_links.twitter }})
+- [Instagram](https://instagram.com/{{ site.plainwhite.social_links.instagram }})
