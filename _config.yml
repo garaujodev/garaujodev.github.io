@@ -19,7 +19,7 @@ tagline: A place to park my ideas
 description: "A software developer that loves to learn and share. Using this blog as an Idea Garden: A place to park my ideas" 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gustavoaraujo.dev" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "assets/portfolio.png"
+logo: "assets/profile.png"
 
 twitter: 
   username: garaujodev
@@ -39,7 +39,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/portfolio.png
+      image: "/assets/profile.png"
 
 plainwhite:
   name: Gustavo Araujo
@@ -58,7 +58,7 @@ plainwhite:
     github: garaujodev
     linkedIn: in/garaujodev # format: locale/username
     instagram: gustavoraaujo
-  portfolio_image:  "assets/portfolio.png"
+  portfolio_image: "assets/rounded.png"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
