@@ -3,7 +3,7 @@ layout: post
 title: "TIL: How to remove unused deps from mix.lock in Elixir"
 date: 2022-12-07 10:52:14 -0300
 categories: elixir
-description: TODAY I LEARNED how to unlock dependencies removing the unused ones from your mix.lock file
+description: Today I Learned how to unlock dependencies removing the unused ones from your mix.lock file to keep your .lock file always updated
 ---
 
 When you add new dependencies to your elixir project and run `mix deps.get`, it will create/update the `mix.lock` file, that list all information about the versions of the dependencies that you are using, such as version, source, etc.
