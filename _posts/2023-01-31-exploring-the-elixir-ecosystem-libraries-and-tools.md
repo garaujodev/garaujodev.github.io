@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Exploring the Elixir Ecosystem: Libraries and Tools"
-date: 2023-01-24 11:52:14 -0300
+date: 2023-01-31 11:52:14 -0300
 categories: elixir
 description: One of the strengths of the Elixir ecosystem is its rich collection of libraries and tools. In this post, we will explore some of the most popular and useful libraries and tools available for Elixir developers.
 ---
