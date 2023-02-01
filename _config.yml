@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Idea Garden
-tagline: A place to park my ideas
-description: "A software developer that loves to learn and share. Using this blog as an Idea Garden: A place to park my ideas" 
+title: Code Chronicles
+tagline: Gustavo Araujo 
+description: Welcome to Code Chronicles, a place where programming enthusiasts come to explore the world of code.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gustavoaraujo.dev" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "assets/profile.png"
