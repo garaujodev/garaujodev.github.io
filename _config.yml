@@ -43,7 +43,7 @@ defaults:
 
 plainwhite:
   name: Gustavo Araujo
-  tagline: Software Developer
+  tagline: Software Engineer 
   email: garaujodev@gmail.com
   date_format: "%-d %b, %Y"
   analytics_id: "UA-169303444-1"
