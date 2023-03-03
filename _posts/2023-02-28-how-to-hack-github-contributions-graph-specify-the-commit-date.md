@@ -8,6 +8,12 @@ description: In this post, you will learn how to create commits with a past date
 
 Recently, got viral on Twitter, a tweet from someone saying that if your GitHub profile looks gray (we have a contributions graph on GitHub, if you have contributions in a specific time you will get a green square, otherwise you will have a gray square that indicates inactivity), you shouldn't apply for senior positions.
 
+| ![The Original Polemical Tweet](/assets/git-commit-date/original-tweet.png) | 
+|:--:| 
+| *The Original Polemical Tweet* |
+
+
+
 First, we need to understand how this contribution graph works. Certain actions count as contributions, like committing to a repository, opening an issue, opening a Pull Request, submitting a review, etc. Contributions in private repositories count too since you enable it.
 
 | ![Enable private contributions displaying on contributions graph](/assets/git-commit-date/activity-overview-options.png) | 
