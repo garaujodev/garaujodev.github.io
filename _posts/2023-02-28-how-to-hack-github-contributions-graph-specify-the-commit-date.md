@@ -29,6 +29,8 @@ Git provides us an argument that you can change the commit date. This is very us
 
 Yes! You can use the `--date=""` argument to specify the date, creating commits in the past. You can provide a lot of date formats, including human-readable ones.
 
+Just for clarification, it will override the `GIT_AUTHOR_DATE` data of the commit, which means when someone first created the commit with `git commit`. In another hand, we have the `GIT_COMMITTER_DATE`, which means the last “modification” of the commit. This is the information that you see when you open the history of a branch in GitHub. The commit date is identical to the author date unless someone changes the commit date by using `git commit --amend`, a force push, a rebase, or other Git commands.
+
 With that, you can hack your contributions graph on GitHub, and display whatever you want using pixel art. Some tools like [GitHub Art](https://github-art.com/) can help you to draw anything. See the example below.
 
 | ![jh3y profile](/assets/git-commit-date/jh3y-profile.png) | 
@@ -38,5 +40,8 @@ With that, you can hack your contributions graph on GitHub, and display whatever
 **But, this isn't the point. I don't want to teach you how to make your GitHub profile green. This is just a useless [Vanity Metric](https://www.productplan.com/glossary/vanity-metrics/). This blog post's purpose is just to share knowledge about git and prove that the GitHub Contributions Graph doesn't mean noting. Especially for Senior Engineers who, in most cases, use their time to teach and help others, or help in architecture decisions. Work isn't just git commits.**
 
 Another point is that you can add someone as a co-author, and draw in other profiles. A possible solution for this problem could be only counting signed commits as contributions to show in this graph.
+
+### References
+* [git commit](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-commit.html#_commit_information)
 
 That's it! Thanks for reading.
