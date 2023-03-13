@@ -12,8 +12,6 @@ Os metadados de um commit incluem várias informações importantes, como `autho
 
 Em resumo, os metadados de um commit no git fornecem informações críticas sobre o código, incluindo quem o escreveu, quem aplicou as alterações e quando essas alterações foram feitas. Essas informações são essenciais para entender o contexto do código e acompanhar as alterações na base de código ao longo do tempo. Por padrão, o metadado `autor/committer date` é preenchido com a data atual, enquanto o `author/committer` é preenchida com a configuração git `user`, presente no arquivo de configuração git (`~/.gitconfig`).
 
-In a git commit, you can specify the author of a commit, using the `--author` argument. As mentioned, the default author is taken from the git configuration file.
-
 No git, você pode especificar o autor de um commit, usando o argumento `--author`. Conforme mencionado, o autor padrão é obtido do arquivo de configuração git.
 
 {% include image.html src="/assets/git-sign-commits/authored-commit.png" alt="Um commit especificando o autor" caption="Um commit especificando o autor" %}
