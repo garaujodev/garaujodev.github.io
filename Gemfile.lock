@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/garaujodev/plainwhite-jekyll.git
+  revision: f5ee71e3bb3e2b94d3734c5f3e1de50f4f941bfa
+  specs:
+    plainwhite (0.13)
+      jekyll (>= 3.7.3)
+      jekyll-seo-tag (>= 2.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -7,15 +15,15 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
-    addressable (2.8.0)
-      public_suffix (>= 2.0.2, < 5.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
     coffee-script-source (1.11.1)
     colorator (1.1.0)
     commonmarker (0.23.5)
-    concurrent-ruby (1.1.10)
+    concurrent-ruby (1.2.2)
     dnsruby (1.61.9)
       simpleidn (~> 0.1)
     em-websocket (0.5.3)
@@ -202,7 +210,7 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
-    listen (3.7.1)
+    listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
@@ -220,12 +228,9 @@ GEM
       sawyer (~> 0.9)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    plainwhite (0.13)
-      jekyll (>= 3.7.3)
-      jekyll-seo-tag (>= 2.1.0)
     public_suffix (4.0.7)
     racc (1.6.0)
-    rb-fsevent (0.11.1)
+    rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
@@ -269,7 +274,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-seo-tag (~> 2.8.0)
   jekyll-sitemap (~> 1.4.0)
-  plainwhite (~> 0.13)
+  plainwhite!
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
