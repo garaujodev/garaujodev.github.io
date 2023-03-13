@@ -46,7 +46,7 @@ Assinando seus commits, você ganhará uma linda badge de verificado em todos os
 
 O objetivo deste post é apenas convencê-lo de que você realmente precisa assinar todos os seus commits, e se eu consegui fazê-lo, vou lhe deixar ótimas referências de como fazer isso:
 
-- [Managing commit signature verification - GitHub Docs](https://docs.github.com/en/authentication/managing-commit-signature-verification)
+- [Gerenciar a verificação de assinatura de commit - GitHub Docs](https://docs.github.com/pt/authentication/managing-commit-signature-verification)
 - [Sign commits with GPG - GitLab Docs](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/)
 - [Signing Your Work - git Docs](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)
 
