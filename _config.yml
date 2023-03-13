@@ -27,13 +27,13 @@ twitter:
 
 # Build settings
 markdown: kramdown
-remote_theme: samarsault/plainwhite-jekyll
+remote_theme: garaujodev/plainwhite-jekyll
 # theme: plainwhite
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
 
 defaults:
   - scope:
