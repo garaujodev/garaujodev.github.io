@@ -71,7 +71,7 @@ cp ~/.Trash/my_deleted_file.txt ~/Documents
 Sempre que necessário, você pode limpar sua lixeira usando o comando padrão `rm`:
 
 ```shell
-command rm ~/.Trash/*
+command rm -r ~/.Trash/*
 ```
 
 De qualquer forma, essa experiência destacou a importância crucial de adotar medidas preventivas e de se fazer commits 
