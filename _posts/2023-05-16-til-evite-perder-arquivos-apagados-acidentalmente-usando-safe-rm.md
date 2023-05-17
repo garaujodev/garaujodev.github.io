@@ -68,6 +68,12 @@ Caso necessário recuperar algum arquivo, apenas copie-o utilizando o comando `c
 cp ~/.Trash/my_deleted_file.txt ~/Documents
 ```
 
+Sempre que necessário, você pode limpar sua lixeira usando o comando padrão `rm`:
+
+```shell
+command rm ~/.Trash/*
+```
+
 De qualquer forma, essa experiência destacou a importância crucial de adotar medidas preventivas e de se fazer commits 
 regulares antes que 
 a perda de arquivos importantes e dias de trabalho árduo se concretizem. Portanto, ao implementar essas medidas e 
