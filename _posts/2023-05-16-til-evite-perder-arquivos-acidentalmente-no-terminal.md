@@ -7,30 +7,30 @@ description: "Evite perder arquivos apagados acidentalmente pelo terminal utiliz
 
 ---
 
-Recentemente, assumi uma tarefa desafiadora na SourceLevel, meu trabalho atual. 
-Essa atribuição envolveu a elaboração completa da documentação do nosso sistema, abordando aspectos 
-como integração e utilização das diversas funcionalidades. Durante o processo, dediquei dois dias 
-à redação de uma das páginas, negligenciando, infelizmente, a prática regular de realizar commits a cada hora.
+Recentemente, assumi uma tarefa na SourceLevel, meu trabalho atual, que envolvia a elaboração completa
+da documentação do nosso sistema, abordando aspectos como integração e utilização das diversas
+funcionalidades. Durante o processo, dediquei dois dias à redação de uma das páginas, ignorando, infelizmente,
+a minha prática regular de realizar commits a cada hora.
 
-Ao perceber a falha, tomei imediatamente a medida de efetuar os commits para evitar qualquer possibilidade de 
-problemas futuros. Entretanto, surgiu a necessidade de remover algumas páginas que não estavam sendo 
-utilizadas no projeto em questão, a fim de consolidar as alterações de forma limpa e manter um histórico adequado.
+Ao perceber que algo poderia dar errado, fui imediatamente efetuar os commits para evitar qualquer possibilidade de 
+problema. Entretanto, surgiu a necessidade de remover algumas páginas que não estavam sendo 
+utilizadas no projeto em questão.
 
-Infelizmente, para minha grande desventura, durante a realização das diversas exclusões dentro do 
-editor de texto Vim, mesmo com todos os cuidados tomados, acabei apagando acidentalmente a página na qual 
-havia trabalhado intensamente por dois dias. É relevante mencionar que a página não foi movida para a lixeira 
+Para minha infelicidade, enquanto eu realizava as exclusões dentro do vim, utilizando os atalhos do Neotree,
+mesmo com todos os cuidados tomados, acabei apagando acidentalmente a página na qual 
+havia trabalhado por dois dias. É relevante mencionar que a página não foi movida para a lixeira 
 do sistema operacional, pois foi removida internamente através do comando `rm`.
 
-Contudo, acredito firmemente que toda situação, por mais adversa que seja, proporciona lições valiosas. Diante disso, 
-decidi buscar por medidas preventivas para evitar a recorrência desse tipo de incidente no futuro. 
+Contudo, sempre busco em toda situação, por mais adversa que seja, algum aprendizado. Diante disso, 
+decidi buscar por algumas medidas preventivas para evitar que isso me acontecesse novamente. 
 
-Posteriormente, ao buscar por alternativas, descobri uma solução viável que envolve a criação de um alias 
+Posteriormente, descobri uma solução viável que envolve a criação de um alias 
 para o comando `rm`. Essa abordagem não resultaria na exclusão permanente do arquivo, mas, em vez disso, 
 o moveria para a lixeira. Dessa forma, caso houvesse a necessidade de recuperar o arquivo, bastaria acessar a pasta 
 da lixeira e restaurá-lo.
 
-Durante a minha pesquisa, encontrei um projeto bastante interessante 
-chamado **[safe-rm](https://github.com/kaelzhang/shell-safe-rm)**, o qual automatiza todo esse processo. Esse projeto 
+Seguindo essa linha de raciocinio, discutindo sobre com o meu companheiro de trabalho [Weverton](https://wevtimoteo.github.io/), o mesmo 
+encontrou um projeto bastante interessante chamado **[safe-rm](https://github.com/kaelzhang/shell-safe-rm)**, o qual automatiza todo esse processo. Esse projeto 
 aceita os mesmos argumentos do comando **`rm`** convencional, porém move os arquivos para uma pasta específica, em vez 
 de excluí-los permanentemente. 
 
@@ -73,11 +73,9 @@ Sempre que necessário, você pode limpar sua lixeira usando o comando padrão `
 ```shell
 command rm -r ~/.Trash/*
 ```
+Mais uma vez, essa experiência destacou a importância de se fazer commits regularmente. Porém, acidentes sempre acontecem
+e vale a pena adicionar mais uma medida de proteção desse tipo com o intuito de evitar situações assim. Afinal, 
+é melhor prevenir do que remediar, não é mesmo? 
 
-De qualquer forma, essa experiência destacou a importância crucial de adotar medidas preventivas e de se fazer commits 
-regulares antes que 
-a perda de arquivos importantes e dias de trabalho árduo se concretizem. Portanto, ao implementar essas medidas e 
-adotar uma abordagem mais cautelosa em relação à manipulação de arquivos, é possível minimizar o risco de enfrentar 
-situações frustrantes como essa no futuro. Afinal, a prevenção é o melhor caminho para preservar nosso trabalho e evitar 
-contratempos desnecessários.
+Obrigado pela leitura!
 
