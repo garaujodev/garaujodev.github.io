@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TIL: Evite perder arquivos apagados acidentalmente usando safe-rm"
+title: "TIL: Evite exlusão acidental de arquivos no terminal usando safe-rm"
 date: 2023-05-16 08:00:00 -0300
 categories: workflow portuguese
 description: "Evite perder arquivos apagados acidentalmente pelo terminal utilizando o safe-rm: uma ferramenta que vai mover seus arquivos em vez de apaga-los efetivamente" 
