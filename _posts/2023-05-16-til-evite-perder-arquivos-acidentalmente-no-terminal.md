@@ -16,7 +16,7 @@ Ao perceber que algo poderia dar errado, fui imediatamente efetuar os commits pa
 problema. Entretanto, surgiu a necessidade de remover algumas páginas que não estavam sendo 
 utilizadas no projeto em questão.
 
-Para minha infelicidade, enquanto eu realizava as exclusões dentro do vim, utilizando os atalhos do Neotree,
+Para minha infelicidade, enquanto eu realizava as exclusões dentro do vim, utilizando os atalhos do [Neotree](https://github.com/nvim-neo-tree/neo-tree.nvim),
 mesmo com todos os cuidados tomados, acabei apagando acidentalmente a página na qual 
 havia trabalhado por dois dias. É relevante mencionar que a página não foi movida para a lixeira 
 do sistema operacional, pois foi removida internamente através do comando `rm`.
@@ -29,7 +29,7 @@ para o comando `rm`. Essa abordagem não resultaria na exclusão permanente do a
 o moveria para a lixeira. Dessa forma, caso houvesse a necessidade de recuperar o arquivo, bastaria acessar a pasta 
 da lixeira e restaurá-lo.
 
-Seguindo essa linha de raciocinio, discutindo sobre com o meu companheiro de trabalho [Weverton](https://wevtimoteo.github.io/), o mesmo 
+Seguindo essa linha de raciocínio, discutindo sobre com o meu companheiro de trabalho [Weverton](https://wevtimoteo.github.io/), o mesmo 
 encontrou um projeto bastante interessante chamado **[safe-rm](https://github.com/kaelzhang/shell-safe-rm)**, o qual automatiza todo esse processo. Esse projeto 
 aceita os mesmos argumentos do comando **`rm`** convencional, porém move os arquivos para uma pasta específica, em vez 
 de excluí-los permanentemente. 
@@ -41,7 +41,7 @@ Existem duas formas de instalar, sendo:
 ```shell
 $ git clone git@github.com:kaelzhang/shell-safe-rm.git
 $ cd shell-safe-rm
-$ sudo sh install.sh) 
+$ sudo sh install.sh 
 ```
 
 * Usando npm:
@@ -61,17 +61,25 @@ Adicionalmente, caso você use o `ZSH` você pode usar o projeto [zsh-safe-rm](h
 porta o projeto mencionado acima como um plugin do `ZSH`, facilitando ainda mais sua instalação. Como não é bem o foco aqui, 
 não entrarei muito em detalhes, mas caso precise de mais informações, consulte o `README` do projeto.
 
-Agora, todos os arquivos que forem apagados no seu SO usando o comando `rm`, vai na verdade mover esses arquivos pra pasta `~/.Trash`.
+Agora, todos os arquivos que forem apagados no seu SO usando o comando `rm`, vai na verdade mover esses arquivos para a lixeira (`~/.Trash` no MacOS e `~/.local/share/Trash/files/` no Ubuntu).
 Caso necessário recuperar algum arquivo, apenas copie-o utilizando o comando `cp`.
 
 ```shell
+# MacOS
 cp ~/.Trash/my_deleted_file.txt ~/Documents
+
+# Ubuntu
+cp ~/.local/share/Trash/files/my_deleted_file.txt ~/Documents
 ```
 
 Sempre que necessário, você pode limpar sua lixeira usando o comando padrão `rm`:
 
 ```shell
+#  MacOS
 command rm -r ~/.Trash/*
+
+# Ubuntu
+command rm -r ~/.local/share/Trash/files/*
 ```
 Mais uma vez, essa experiência destacou a importância de se fazer commits regularmente. Porém, acidentes sempre acontecem
 e vale a pena adicionar mais uma medida de proteção desse tipo com o intuito de evitar situações assim. Afinal, 
