@@ -2,7 +2,7 @@
 layout: post
 title: Code Review como ferramenta de onboarding
 date: 2020-07-11 17:11:14 -0300
-categories: code-review portuguese
+categories: code-review
 description: Nesse post, compartilho como foi minha experiência ao entrar na SourceLevel, aprendendo melhor sobre a codebase, com base em histórico de Pull Requests e outras discussões.
 ---
 
@@ -66,4 +66,3 @@ e filósofo Blaise Pascal:
 > “Ninguém é tão sábio que não tenha algo pra aprender e nem tão tolo que não tenha algo pra ensinar”
 
 Hoje, consigo navegar no código e contribuir com clareza, me sinto à vontade para solicitar e ceder revisões, e sei o quão produtiva é a revisão de código em um processo de onboarding. Certamente incluiria essa prática nos próximos onboardings que eu participar e recomendo que todos façam o mesmo.
-

@@ -2,14 +2,14 @@
 layout: post
 title: "Rubocop: Como instalar e configurar"
 date: 2022-01-09 17:11:14 -0300
-categories: ruby portuguese
+categories: ruby
 image: "assets/rubocop-linter/rubocop-cover.png"
 description: Aprenda a instalar e configurar o linter Rubocop, para garantir a consistência e padronização de sua codebase Ruby.
 ---
 
 Que a qualidade de código é importante todo mundo sabe, mas você tem ou segue um guideline bem definido, para padronizar o seu código?
 
-Fazendo uma introdução bem leve, esse é o intuito de um linter: *uma ferramenta que analisa o código fonte para identificar erros de programação, bugs, erros estáticos e construções suspeitas ([Wikipedia](https://en.wikipedia.org/wiki/Lint_(software)))*
+Fazendo uma introdução bem leve, esse é o intuito de um linter: _uma ferramenta que analisa o código fonte para identificar erros de programação, bugs, erros estáticos e construções suspeitas ([Wikipedia](<https://en.wikipedia.org/wiki/Lint_(software)>))_
 
 Nos dias atuais é muito difícil manter padronização de código dentro de uma equipe sem o auxilio de um linter, que vai garantir ao máximo que o seu código siga as mesmas regras, de tal forma que pareça que foi escrito por uma única pessoa!
 
@@ -51,7 +51,6 @@ Layout/LineLength:
 
 _Nota 1: Usamos o `inherit_from` para usar as cops já definidas de um outro arquivo ou URL. Mais detalhes na [documentação](https://docs.rubocop.org/rubocop/configuration.html#inheritance).
 Nota 2: Se você usa **Rails**, é extremamente importante fazer o require do `rubocop-rails`, que é uma extensão do **Rubocop** que vai forçar o uso das convenções de código e [boas práticas definidas pelo Rails](https://rails.rubystyle.guide/)._
-
 
 Por padrão, o **Rubocop** procura por um arquivo `.rubocop.yml` no diretório atual sempre que executado, caso não encontre, ele vai procurar no seu home path (`~/.rubocop.yml`) e em último caso vai usar o arquivo de configuração padrão. Mais detalhes sobre a configuração do **Rubocop** podem ser encontradas na [documentação oficial](https://docs.rubocop.org/rubocop/configuration.html).
 

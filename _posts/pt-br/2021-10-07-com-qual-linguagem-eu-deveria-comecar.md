@@ -2,7 +2,7 @@
 layout: post
 title: "Com qual linguagem eu deveria começar?"
 date: 2021-10-07 23:00:00 -0300
-categories: opinioes portuguese
+categories: opinioes
 description: "Um parecer pessoal apontando meu ponto de vista em uma resposta a pergunta: Com qual linguagem eu deveria começar?"
 ---
 
@@ -20,7 +20,7 @@ foi a linguagem que ele começou: Rust!
 
 Isso veio totalmente contra o que eu tinha visto até então para uma primeira linguagem, e isso me fez
 perceber que, você não precisa começar com JavaScript, PHP ou Python para ser um bom programador. Mais
-importante que isso, é ter em mente que programação tem um ***feijão com arroz***, e ele não está
+importante que isso, é ter em mente que programação tem um **_feijão com arroz_**, e ele não está
 associado a uma linguagem. Estes são os conceitos, aquelas coisas que dificilmente mudam, como arquiteturas
 e padrões.
 

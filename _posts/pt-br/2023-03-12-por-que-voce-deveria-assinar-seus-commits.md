@@ -2,7 +2,7 @@
 layout: post
 title: "Por que você deveria assinar seus commits"
 date: 2023-03-12 08:00:00 -0300
-categories: git portuguese
+categories: git
 description: Você sabia que qualquer um pode fazer commits no git usando seu nome de usuário? Vou ensinar sobre alguns metadados incluídos em cada commit e como alguém pode usá-los para se passar por você.
 ---
 
@@ -21,14 +21,16 @@ Eu criei este commit apenas preenchendo o argumento `--author`, da seguinte form
 ```bash
 git commit --author="Lucas Felipe <lpaivareis@users.noreply.github.com>"
 ```
+
 Como você pode ver, eu defini `lpaivareis` como o autor, mas eu era o responsável pelo commit, então o git me colocou como o committer. Isso aconteceu porque fiz esse commit do meu computador e minha configuração do git tem meu nome de usuário e e-mail.
 
-__Mas o que acontece se eu quiser fingir ser alguém e definir meu arquivo de configuração git com outro nome de usuário e e-mail? Exatamente! Esse é o ponto.__
+**Mas o que acontece se eu quiser fingir ser alguém e definir meu arquivo de configuração git com outro nome de usuário e e-mail? Exatamente! Esse é o ponto.**
 
 ```bash
 git config user.name "Lucas Felipe"
 git config user.email "lpaivareis@users.noreply.github.com"
 ```
+
 Agora, todos os meus commits neste repositório (e em todos, se eu defini-lo globalmente usando o argumento `--global`) vão constar que foram feitos pelo usuário `lpaivareis`:
 
 {% include image.html src="/assets/git-sign-commits/fake-commit.png" alt="Commit indevidamente atribuído a lpaivareis" caption="Commit indevidamente atribuído a lpaivareis" %}
@@ -39,7 +41,8 @@ A única maneira de deixar as pessoas confiarem em seus commits, provando que el
 
 ```bash
 git config --global commit.gpgsign true
-``````
+```
+
 Assinando seus commits, você ganhará uma linda badge de verificado em todos os seus commits:
 
 {% include image.html src="/assets/git-sign-commits/signed-commit.png" alt="Um commit devidamente assinado" caption="Um commit devidamente assinado" %}
@@ -50,9 +53,8 @@ O objetivo deste post é apenas convencê-lo de que você realmente precisa assi
 - [Sign commits with GPG - GitLab Docs](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/)
 - [Signing Your Work - git Docs](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)
 
-Obrigado por ler! 
+Obrigado por ler!
 
 ### Referencias
-* [git commit](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-commit.html#_commit_information)
 
-
+- [git commit](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-commit.html#_commit_information)

@@ -40,6 +40,16 @@ defaults:
       path: ""
     values:
       image: "/assets/profile.png"
+  - scope:
+      path: "_posts/en"
+    values:
+      permalink: ":title"
+      language: en
+  - scope:
+      path: "_posts/pt-br"
+    values:
+      permalink: "pt-br/:title"
+      language: pt-br
 
 plainwhite:
   name: Gustavo Araujo
