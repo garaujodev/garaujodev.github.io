@@ -16,7 +16,7 @@ Have you ever found yourself in a situation where you're in the middle of workin
 
 ### How to Use Git Stash?
 
-Using Git Stash is a breeze. When you want to save your changes, simply run:
+Using git stash is a breeze. When you want to save your changes, simply run:
 
 ```bash
 git stash
