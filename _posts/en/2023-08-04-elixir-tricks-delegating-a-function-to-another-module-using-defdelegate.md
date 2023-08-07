@@ -12,7 +12,7 @@ Sometimes, we need to write functions in Elixir that serve as a bridge between m
 def categories, do: Category.categories
 ```
 
-The only responsibility of this function is to call the `categories` function from the `Category` module. Generally, programmers do that to "hide" unnecessary context in the code. If we are talking about `Products`, is explicitly what a `Category` is, so isn't necessary to explicit show that we are taking it from the `Category` module.
+The only responsibility of this function is to call the `categories` function from the `Category` module. Generally, programmers do that to "hide" unnecessary context in the code. If we are talking about `Product`, is explicitly what a `Category` is, so isn't necessary to explicit show that we are taking it from the `Category` module.
 
 Elixir provides us a macro to hide this context, where you can delegate functions to another module: `defdelegate`. It comes from the `Kernel` module, so isn't necessary to import it. It's a powerful and convenient tool in Elixir that helps us streamline our code and promote code reusability.
 
@@ -31,7 +31,7 @@ defmodule Category do
 end
 ```
 
-In this example, the `Products` module delegates the function `categories` to the `Category` module. Now, if we call `Products.categories/0`, it will be forwarded to `Category.categories/0`:
+In this example, the `Product` module delegates the function `categories` to the `Category` module. Now, if we call `Product.categories/0`, it will be forwarded to `Category.categories/0`:
 
 ```elixir
 Product.categories
