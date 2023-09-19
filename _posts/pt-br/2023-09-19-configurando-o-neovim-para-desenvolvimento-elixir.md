@@ -9,15 +9,17 @@ description: "O Neovim é um poderoso editor que pode ser transformado em uma ID
 O Neovim é um poderoso editor que pode ser transformado em uma IDE completa para Elixir com a adição de algumas ferramentas e extensões. Neste guia, vamos explorar como montar um ambiente otimizado para desenvolvimento Elixir no Neovim.
 
 ---
+
 ## Pré-requisitos:
 
 - Neovim instalado.
 - Git instalado (para clonar plugins).
 
 Esses são os requisitos funcionais obrigatórios. Porém outras ferramentas são necessarias para tirar total proveito do Lazyvim. Recomendo que acesse a página oficial: [Lazyvim - Requirements](https://www.lazyvim.org/#%EF%B8%8F-requirements)
+
 ## 1. Instalação do Lazyvim
 
-Eu já perdi muito tempo configurando todos os plugins da minha forma. Isso te dá muito controle sobre como você monta seu setup, porém você sempre vai ter algum problema de um plugin descontinuado ou coisa parecida, o que dá muito trabalho de manter atualizado e funcional. Por esse motivo, nos dias de hoje, eu tanto uso quanto encorajo a usar ferramentas como o Lazyvim, que já trás toda uma suite de plugins configurados, além da própria comunidade fazer uma curadoria e ser ativa no sentido de manter todos os plugins que fazem parte da suite estarem funcionais e ativos. 
+Eu já perdi muito tempo configurando todos os plugins da minha forma. Isso te dá muito controle sobre como você monta seu setup, porém você sempre vai ter algum problema de um plugin descontinuado ou coisa parecida, o que dá muito trabalho de manter atualizado e funcional. Por esse motivo, nos dias de hoje, eu tanto uso quanto encorajo a usar ferramentas como o Lazyvim, que já trás toda uma suite de plugins configurados, além da própria comunidade fazer uma curadoria e ser ativa no sentido de manter todos os plugins que fazem parte da suite estarem funcionais e ativos.
 
 A instalação é bastante simples, você só vai precisar clonar um template inicial:
 
@@ -35,7 +37,7 @@ Para mais detalhes, você pode acessar a [documentação do Lazyvim](https://www
 
 Agora, abra seu Neovim usando `nvim` e aguarde o download de todos os plugins. Recomendo executar `:checkhealth` para obter um relatório completo, para garantir que todos os requisitos da suite Lazyvim estão satisfeitos.
 
-Daqui em diante, abordaremos duas formas diferentes de se instalar os plugins, sendo via comando, e via arquivo. Eu particularmente lhe recomendo instalar via arquivo, que é interessante caso você queira versionar todo o seu setup de ambiente no git. Feito isso, para subir o mesmo setup do seu neovim em outro computador, você só precisa clonar seu repositório no diretorio de configurações do neovim, assim como fez com o starter-template do Lazyvim.
+Daqui em diante, abordaremos duas formas diferentes de se instalar os plugins, sendo via comando, e via arquivo. Eu particularmente lhe recomendo instalar via arquivo, que é interessante caso você queira versionar todo o seu setup de ambiente no git. Feito isso, para subir o mesmo setup do seu Neovim em outro computador, você só precisa clonar seu repositório no diretorio de configurações do Neovim, assim como fez com o starter-template do Lazyvim.
 
 ## 2. Configurando o Language Server Protocol (LSP) para Elixir
 
@@ -43,7 +45,7 @@ O Lazyvim usa o [Mason](https://github.com/williamboman/mason.nvim), que é um g
 
 ### Instalando via comando
 
-  Você pode instalar usando a interface do próprio Mason, que é acessada usando `:Mason` (navegue usando o vim-way de navegação, `k` ou `j` e use `i` para instalar). Você pode consultar a seção de ajuda usando `g?`.
+Você pode instalar usando a interface do próprio Mason, que é acessada usando `:Mason` (navegue usando o vim-way de navegação, `k` ou `j` e use `i` para instalar). Você pode consultar a seção de ajuda usando `g?`.
 
 ### Instalando via arquivo
 
@@ -68,27 +70,27 @@ Outra forma de instalacão, um pouco mais pragmatica, é fazendo isso via arquiv
   }
 ```
 
-Como você pode ver, extendemos a funcionalidade do Mason, adicionando o `elixir-ls` a lista do `ensure_installed` que vai garantir que esse plugin esteja instalado quando iniciarmos o neovim. Você pode adicionar outros plugins, caso queira. Salve o arquivo e reinicie o seu neovim.
+Como você pode ver, extendemos a funcionalidade do Mason, adicionando o `elixir-ls` a lista do `ensure_installed` que vai garantir que esse plugin esteja instalado quando iniciarmos o neovim. Você pode adicionar outros plugins, caso queira. Salve o arquivo e reinicie o seu Neovim.
 
 Lembrando que o ElixirLS já nos oferece a funcionalidade de formatter, portanto quando você salvar seu código, ele vai automaticamente formata-lo.
 
 ## 2. Configurando o TreeSitter para Syntax Highlight
 
-Para syntax highlight usaremos o [treesitter](https://github.com/nvim-treesitter/nvim-treesitter), que é auto-definido como uma ferramenta de gerenciamento de parsers. A configuração segue a mesma linha do LSP, onde você pode instalar via comando, ou via arquivo, sendo esse último mais recomendado em caso de versionamento de sua configuração neovim.
+Para syntax highlight usaremos o [treesitter](https://github.com/nvim-treesitter/nvim-treesitter), que é auto-definido como uma ferramenta de gerenciamento de parsers. A configuração segue a mesma linha do LSP, onde você pode instalar via comando, ou via arquivo, sendo esse último mais recomendado em caso de versionamento de sua configuração Neovim.
 
 ### Instalando via comando
 
-  Para instalar via comando, você só precisa executar o seguinte comando:
+Para instalar via comando, você só precisa executar o seguinte comando:
 
   ```jsx
   :TSInstall elixir
   ```
 
-  Lembrando que o TreeSitter tem uma infinidade de parsers para várias linguagens, que pode ser consultada no [repositório oficial](https://github.com/nvim-treesitter/nvim-treesitter#supported-languages).
+Lembrando que o TreeSitter tem uma infinidade de parsers para várias linguagens, que pode ser consultada no [repositório oficial](https://github.com/nvim-treesitter/nvim-treesitter#supported-languages).
 
 ### Instalando via arquivo
 
-  Abra novamente o arquivo `~/.config/nvim/lua/plugins/elixir.lua` e adicione o seguinte trecho após as aspas de fechamento do primeiro bloco, do LSP (`},`):
+Abra novamente o arquivo `~/.config/nvim/lua/plugins/elixir.lua` e adicione o seguinte trecho após as aspas de fechamento do primeiro bloco, do LSP (`},`):
 
   ```lua
   {
@@ -170,7 +172,7 @@ Agora, vamos instalar o adapter `neotest-elixir` para ser possível interagir co
     },
   ```
 
-Salve o arquivo, e reinicie seu Neovim. 
+Salve o arquivo, e reinicie seu Neovim.
 
 Agora você vai conseguir interagir com seus testes, como executar todos os testes, executar um teste específico, e até mesmo visualizar o ouput de sua suite. Para isso, aperte `leader` e depois `t`. Lembrando que, por padrão, a `leader` no Lazyvim é a tecla `space`.
 
@@ -178,7 +180,7 @@ Agora você vai conseguir interagir com seus testes, como executar todos os test
 
 Até o presente momento, eu tenho utilizado [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim) para injetar o credo dentro dos diagnosticos do Neovim. Porém, enquanto escrevia, percebi que o projeto foi arquivado e não faz muito sentido usar a ferramenta agora devido a possíveis futuras falhas de funcionamento. Ainda estou verificando as possibilidades, possivelmente usar o [nvim-lint](https://github.com/mfussenegger/nvim-lint/) ou até mesmo o [ALE](https://github.com/dense-analysis/ale/). Quando tiver algo concreto e usável, atualizo esse post.
 
-___
+---
 
 ### Resultado final
 
