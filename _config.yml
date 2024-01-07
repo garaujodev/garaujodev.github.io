@@ -27,8 +27,8 @@ twitter:
 
 # Build settings
 markdown: kramdown
-remote_theme: garaujodev/plainwhite-jekyll
-# theme: plainwhite
+# remote_theme: garaujodev/plainwhite-jekyll
+theme: plainwhite
 
 plugins:
   - jekyll-feed
