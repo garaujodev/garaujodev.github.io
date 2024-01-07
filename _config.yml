@@ -57,6 +57,7 @@ plainwhite:
   email: garaujodev@gmail.com
   date_format: "%-d %b, %Y"
   analytics_id: "UA-169303444-1"
+  disqus_shortname: disqus_VdZF3WCIRg
   sitemap: true
   search: false
   dark_mode: true
