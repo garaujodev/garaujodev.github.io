@@ -58,7 +58,7 @@ plainwhite:
   date_format: "%-d %b, %Y"
   analytics_id: "UA-169303444-1"
   sitemap: true
-  search: true
+  search: false
   dark_mode: true
   navigation:
     - title: About me
