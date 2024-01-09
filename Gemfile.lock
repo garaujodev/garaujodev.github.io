@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/garaujodev/plainwhite-jekyll.git
-  revision: f5ee71e3bb3e2b94d3734c5f3e1de50f4f941bfa
+  revision: aa5314175b13b0dc7634ba09f095ec61f74cd1c9
+  branch: main
   specs:
     plainwhite (0.13)
       jekyll (>= 3.7.3)
