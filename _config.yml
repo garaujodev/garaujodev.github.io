@@ -59,7 +59,7 @@ plainwhite:
   analytics_id: "UA-169303444-1"
   disqus_shortname: code-chronicles
   sitemap: true
-  search: false
+  search: true
   dark_mode: true
   navigation:
     - title: About me
