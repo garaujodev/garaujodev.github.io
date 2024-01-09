@@ -9,16 +9,6 @@ layout: default
 
 {%- assign siteposts = site.posts | where: 'language', page.language -%}
 
-{%- if page.language == "en" -%}
-<div class="text-center mg-top-45">
-  <a href="/pt-br">Versão em Português</a>
-</div>
-{%- else -%}
-<div class="text-center mg-top-45">
-  <a href="/">English Version</a>
-</div>
-{%- endif -%}
-
 {%- if siteposts.size > 0 -%}
   <ul class="posts">
     <li class="posts-labelgroup" id="posts-labelgroup">
