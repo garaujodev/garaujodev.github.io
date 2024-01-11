@@ -29,6 +29,7 @@ Não há limite ou recomendação de idade para iniciar uma carreira em programa
 <div class="embed-container">
   <iframe
       src="https://www.youtube.com/embed/G1wFdb9OM_U"
+      style="display: block; margin: auto;"
       width="700"
       height="480"
       frameborder="0"
@@ -103,3 +104,5 @@ Em resumo, ingressar na carreira de programação é uma jornada desafiadora, ma
 Diferenciar-se como programador(a) envolve prática ativa, contribuição para projetos de código aberto e participação em comunidades online. Além disso, abordei estratégias para conseguir emprego, enfatizando a importância do networking e construção de um portfólio online.
 
 Em suma, a jornada de um(a) programador(a) bem-sucedido(a) exige comprometimento, aprendizado contínuo e interação com a comunidade. Esteja preparado(a) para enfrentar desafios, experimentar diversas áreas e desfrutar do crescimento profissional nesse campo dinâmico e fascinante.
+
+Obrigado pela leitura. Caso tenha alguma dúvida, sintam-se a vontade para me contatar nos comentários ou até no [Twitter](https://twitter.com/garaujodev). Ficarei feliz em ajudar 🙂
