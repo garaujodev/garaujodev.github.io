@@ -26,7 +26,15 @@ Para iniciar uma carreira em programação, não há exatamente requisitos unive
 
 Não há limite ou recomendação de idade para iniciar uma carreira em programação. Pessoas de todas as idades podem aprender a programar e entrar nesse campo. Desde estudantes do ensino médio até profissionais em transição de carreira, todos têm a oportunidade de se tornar programadores(as) bem-sucedidos(as). Existem vários casos de pessoas que iniciaram suas jornadas após os 50 anos, como é o caso do Maujor, conhecido como o Dinossauro do CSS, que revolucionou o cenário de desenvolvimento web no Brasil.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G1wFdb9OM_U?si=c2m8RaWeTbu7wYZ_" frameborder="0"> </iframe>
+<div class="embed-container">
+  <iframe
+      src="https://www.youtube.com/embed/G1wFdb9OM_U"
+      width="700"
+      height="480"
+      frameborder="0"
+      allowfullscreen="true">
+  </iframe>
+</div>
 
 ## Matemática
 
@@ -76,8 +84,6 @@ A prática é essencial para aprimorar suas habilidades de programação e demon
 
 Participar ativamente de comunidades online, interagir com outros profissionais e até mesmo escrever conteúdo complementar aprimora ainda mais essa distinção, permitindo que você se destaque como uma figura proeminente e respeitada na comunidade de desenvolvimento.
 
-# Como conseguir emprego?
-
 ## Como conseguir emprego?
 
 Para conseguir um emprego na área de programação, é importante destacar-se e criar conexões significativas na comunidade de desenvolvedores. Posso citar algumas práticas importantes:
@@ -89,3 +95,11 @@ Para conseguir um emprego na área de programação, é importante destacar-se e
 5. Networking com outros desenvolvedores: Busque ativamente oportunidades de networking com outros desenvolvedores. Isso pode ser feito por meio de eventos presenciais, redes sociais profissionais, grupos de interesse e até mesmo por meio de conexões estabelecidas nas comunidades online. Crie um bom LinkedIn, faça conexões com pessoas que compartilham do mesmo interesse. Isso vai permitir que você seja encontrado.
 
 É importante lembrar que o networking e a participação em comunidades online não são apenas para conseguir um emprego, mas também para desenvolver relacionamentos significativos com outros profissionais da área. Ao compartilhar conhecimento, ajudar os outros e estar envolvido na comunidade, você se torna um desenvolvedor mais valorizado e reconhecido. Aproveite essas oportunidades para aprender, crescer e construir uma rede sólida de contatos que podem abrir portas para futuras oportunidades profissionais.
+
+# Conclusão
+
+Em resumo, ingressar na carreira de programação é uma jornada desafiadora, mas acessível a todos, independentemente da formação acadêmica ou idade. Destaquei a importância da paixão pela tecnologia, habilidades de comunicação e trabalho em equipe como fundamentais para o sucesso.
+
+Diferenciar-se como programador(a) envolve prática ativa, contribuição para projetos de código aberto e participação em comunidades online. Além disso, abordei estratégias para conseguir emprego, enfatizando a importância do networking e construção de um portfólio online.
+
+Em suma, a jornada de um(a) programador(a) bem-sucedido(a) exige comprometimento, aprendizado contínuo e interação com a comunidade. Esteja preparado(a) para enfrentar desafios, experimentar diversas áreas e desfrutar do crescimento profissional nesse campo dinâmico e fascinante.
