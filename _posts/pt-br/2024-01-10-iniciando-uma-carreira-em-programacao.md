@@ -26,7 +26,7 @@ Para iniciar uma carreira em programação, não há exatamente requisitos unive
 
 Não há limite ou recomendação de idade para iniciar uma carreira em programação. Pessoas de todas as idades podem aprender a programar e entrar nesse campo. Desde estudantes do ensino médio até profissionais em transição de carreira, todos têm a oportunidade de se tornar programadores(as) bem-sucedidos(as). Existem vários casos de pessoas que iniciaram suas jornadas após os 50 anos, como é o caso do Maujor, conhecido como o Dinossauro do CSS, que revolucionou o cenário de desenvolvimento web no Brasil.
 
-<iframe width="480" height="360" src="https://www.youtube.com/embed/G1wFdb9OM_U?si=c2m8RaWeTbu7wYZ_" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G1wFdb9OM_U?si=c2m8RaWeTbu7wYZ_" frameborder="0"> </iframe>
 
 ## Matemática
 
