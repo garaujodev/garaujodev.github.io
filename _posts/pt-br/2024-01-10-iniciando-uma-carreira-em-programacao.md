@@ -99,10 +99,8 @@ Para conseguir um emprego na área de programação, é importante destacar-se e
 
 # Conclusão
 
-Em resumo, ingressar na carreira de programação é uma jornada desafiadora, mas acessível a todos, independentemente da formação acadêmica ou idade. Destaquei a importância da paixão pela tecnologia, habilidades de comunicação e trabalho em equipe como fundamentais para o sucesso.
+Em resumo, ingressar na carreira de programação é uma jornada desafiadora, mas acessível a todos, independentemente da formação acadêmica ou idade. Diferenciar-se como programador(a) envolve prática ativa, contribuição para projetos de código aberto e participação em comunidades online. Além disso, podemos mencionar algumas estratégias para conseguir emprego, enfatizando a importância do networking e construção de um portfólio online.
 
-Diferenciar-se como programador(a) envolve prática ativa, contribuição para projetos de código aberto e participação em comunidades online. Além disso, abordei estratégias para conseguir emprego, enfatizando a importância do networking e construção de um portfólio online.
-
-Em suma, a jornada de um(a) programador(a) bem-sucedido(a) exige comprometimento, aprendizado contínuo e interação com a comunidade. Esteja preparado(a) para enfrentar desafios, experimentar diversas áreas e desfrutar do crescimento profissional nesse campo dinâmico e fascinante.
+Lembre-se que, a jornada de um(a) programador(a) bem-sucedido(a) exige comprometimento, aprendizado contínuo e interação com a comunidade. Esteja preparado(a) para enfrentar desafios, experimentar diversas áreas e desfrutar do crescimento profissional nesse campo dinâmico e fascinante.
 
 Obrigado pela leitura. Caso tenha alguma dúvida, sintam-se a vontade para me contatar nos comentários ou até no [Twitter](https://twitter.com/garaujodev). Ficarei feliz em ajudar 🙂
