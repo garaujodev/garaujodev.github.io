@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Iniciando uma carreira em programação"
-date: 2024-01-11 10:00:00 -0300
+date: 2024-01-10 10:00:00 -0300
 categories: opinioes
 description: "Nesse artigo vamos abordar algumas das perguntas mais comuns que iniciantes tem quando pretendem iniciar uma carreira em programação. Levantaremos alguns pontos importantes, bem como iremos discorrer sobre assuntos como faculdade, os requisitoes, dentre outros."
 ---
