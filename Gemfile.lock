@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/garaujodev/plainwhite-jekyll.git
-  revision: aa5314175b13b0dc7634ba09f095ec61f74cd1c9
+  revision: 657e0ad782bebc1add975c5feaa348db3fba952a
   branch: main
   specs:
     plainwhite (0.13)
@@ -16,7 +16,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
-    addressable (2.8.1)
+    addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
     coffee-script (2.4.1)
       coffee-script-source
@@ -24,7 +24,7 @@ GEM
     coffee-script-source (1.11.1)
     colorator (1.1.0)
     commonmarker (0.23.10)
-    concurrent-ruby (1.2.2)
+    concurrent-ruby (1.2.3)
     dnsruby (1.61.9)
       simpleidn (~> 0.1)
     em-websocket (0.5.3)
@@ -38,7 +38,7 @@ GEM
       faraday-net_http (~> 2.0)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (2.0.3)
-    ffi (1.15.5)
+    ffi (1.16.3)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (226)
@@ -234,7 +234,7 @@ GEM
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rexml (3.2.5)
+    rexml (3.2.6)
     rouge (3.26.0)
     ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
