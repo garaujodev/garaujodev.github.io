@@ -14,11 +14,11 @@ Solargraph provides a comprehensive suite of features for Ruby development, incl
 
 In this guide, we'll dive into how to set up and configure both Solargraph and Shopify's Ruby LSP in VSCode. Whether you're building a complex Ruby on Rails application or working on a Ruby gem, integrating these LSPs into your development workflow can lead to more productive coding sessions and a deeper understanding of your codebase.
 
-Let's embark on this journey to elevate your Ruby development experience in VSCode by harnessing the power of Solargraph or Shopify's Ruby LSP.
+You can make your own choice about which you will use, you won't need both (and not recommended). But firstly, let me mention that Solargraph works well with **Ruby 2.5** or higher, while Shopify's LSP needs **Ruby 3** or newer to work properly. You can do some workarounds to make Shopify's LSP work with an older version of Ruby, as described [here](https://github.com/Shopify/vscode-ruby-lsp?tab=readme-ov-file#ruby-version-requirement). You can read more about the motivation to require **Ruby 3** [in this issue](https://github.com/Shopify/vscode-ruby-lsp/issues/948#issuecomment-1867024912).
 
 ## Getting Started with Solargraph
 
-Solargraph was created by Fred Snyder, over Castwide company, with its first release making its way to the Ruby community in 2017. Developed out of a need for a robust, Ruby-specific language server protocol (LSP) solution, Solargraph aimed to fill the gap by offering a rich suite of features tailored for Ruby developers.
+Solargraph was created by Fred Snyder, over Castwide company, with its first release making its way to the Ruby community in 2017. Developed out of a need for a robust, Ruby-specific language server protocol (LSP) solution, Solargraph aimed to fill the gap by offering a rich suite of features tailored for Ruby developers. 
 With its rich feature set, including code completion, diagnostics, and inline documentation, Solargraph has quickly become a must-have for Ruby developers. Here's how to get started:
 
 ### Step 1: Install the Solargraph Gem
@@ -87,4 +87,4 @@ Encountering issues while setting up or using Shopify's Ruby LSP in VSCode? Here
 
 Integrating with an LSP is a game-changer for developers, offering a suite of powerful tools that significantly enhance coding efficiency and enjoyment. These integrations not only improve code quality but also save you time through features like auto-formatting, advanced code completion, and real-time feedback. 
 
-By adopting these tools, you're investing in a smarter coding process and joining a forward-thinking community dedicated to advancing Ruby development. Embrace these enhancements and unlock the full potential of your Ruby workflow with increased productivity and reduced development time. Happy coding!
+By adopting these tools, you're investing in a smarter coding process and joining a forward-thinking community dedicated to advancing Ruby development. Happy coding!
