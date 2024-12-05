@@ -8,19 +8,17 @@ comments: false
 
 ### About me
 
-As a software engineer, I have a deep interest in technology and a strong inclination to impart my expertise to others. My background involves creating and implementing software across various platforms, consistently delivering top-notch, adaptable, and effective solutions.
+I'm Gustavo Araujo, a software engineer passionate about building efficient and scalable software solutions. Living in Brazil, with over a decade of professional experience, most of that in remote teams. I’ve worked across various industries, from payments and developer tools to mobility and SaaS platforms, always striving to deliver high-quality, high-performance systems.
 
-Beyond my technical proficiency, I find fulfillment in guiding and instructing others. This drive has led me to actively engage in coding workshops, hackathons, and online communities. I firmly believe that sharing knowledge is pivotal for personal growth, not only within the tech sphere but in all aspects of life.
+Currently, I’m a Senior Software Engineer at CloudWalk, where I contribute to the development of InfinitePay, a leading payment solution in Brazil. My focus is on designing and optimizing systems for scalability and reliability, particularly around onboarding new clients and handling millions of daily transactions. I’m dedicated to ensuring code quality, mentoring developers, and fostering a collaborative team environment.
 
-During my leisure time away from coding, I keep myself updated on the latest advancements in the field while exploring novel technologies and tools. I'm constantly seeking fresh prospects for learning, expanding my skills, and exchanging knowledge.
+I’m also an active participant in software development communities and events, where I’ve had the opportunity to share knowledge and present talks. I enjoy contributing to open-source projects, which allows me to collaborate with developers worldwide and give back to the community that inspires me daily. Engaging with the community and open source fuels my growth and helps me stay at the forefront of industry trends.
 
-Aside from my professional and educational pursuits, I've recently begun using this platform to publish articles and blogs on topics close to my heart. It allows me to share insights and expertise with a broader audience and fosters enriching conversations with individuals who share similar passions. I'm eager to further enhance my online presence and connect with fellow enthusiasts.
-
-Feel free to connect with me on my social accounts, like Twitter.
+Feel free to connect with me on my social accounts, like Twitter/X.
 
 #### Reach me out ✨
 
 - [{{ site.plainwhite.email }}](mailto:{{ site.plainwhite.email }})
 - [GitHub](https://github.com/{{ site.plainwhite.social_links.github }})
-- [Twitter](https://twitter.com/{{ site.plainwhite.social_links.twitter }})
+- [Twitter/X](https://x.com/{{ site.plainwhite.social_links.twitter }})
 - [Instagram](https://instagram.com/{{ site.plainwhite.social_links.instagram }})
