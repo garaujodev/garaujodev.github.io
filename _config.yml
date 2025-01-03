@@ -16,7 +16,7 @@
 
 title: Code Chronicles
 tagline: Gustavo Araujo
-description: Welcome to Code Chronicles, a place where programming enthusiasts come to explore the world of code.
+description: "Welcome to Code Chronicles, where I share my journey as a software engineer navigating the worlds of Ruby, Elixir, and beyond. Here, you'll find insights on code quality, testing, scalability, and the fascinating challenges of building robust, high-availability systems. Join me in exploring the stories behind the code, the tools that elevate our craft, and the passion that drives us to create."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gustavoaraujo.dev" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "assets/profile.png"
