@@ -70,7 +70,7 @@ plainwhite:
     github: garaujodev
     linkedIn: in/garaujodev # format: locale/username
     instagram: gustavoarcz
-  portfolio_image: "assets/rounded.png"
+  portfolio_image: "assets/rounded-mini.png"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
