@@ -6,7 +6,7 @@ categories: code-review
 description: "Aprenda boas práticas de Code Review e por que usar \"Request Changes\" com cuidado para manter a colaboração e a confiança no time."
 ---
 
-O processo de code review existe para ajudar o time a escrever um código melhor, juntos. Mas quando alguém usa o botão **“Request Changes”** da forma errada, o que deveria ser um processo de aprendizado vira um jogo de poder. E code reviews não são sobre controle — são sobre colaboração.
+O processo de code review existe para ajudar o time a escrever um código melhor, juntos. Mas quando alguém usa o botão **“Request Changes”** da forma errada, o que deveria ser um processo de aprendizado vira um jogo de poder. E code reviews não são sobre controle, são sobre colaboração.
 
 Quando você abre um pull request, está dizendo: *"Ei, aqui está minha ideia — o que você acha?"*. Você está aberto a feedback (e, com sorte, realmente esperando por ele). É assim que times crescem juntos e mantêm uma base de código saudável.
 
@@ -27,17 +27,13 @@ Se sua review não ajuda o time a evoluir em pelo menos um desses dois pontos, t
 
 ### **Nem Todo Comentário Merece um "Request Changes"**
 
-Durante uma review, é comum encontrar trechos que você escreveria de outro jeito — e é natural.
+Durante uma review, é comum encontrar trechos que você escreveria de outro jeito. E é natural.
 
 Cada pessoa tem preferências: nomeação, indentação, tamanho de função, estrutura de código. Mas o seu jeito não é *o* jeito. E é aí que muitos revisores escorregam para o modo “autoritário”.
 
-Quando você usa **Request Changes** por algo subjetivo, você interrompe o fluxo de colaboração.
+Quando você usa **Request Changes** por algo subjetivo, você interrompe o fluxo de colaboração. Você não está dizendo *"Aqui vai uma ideia para discutirmos"*, está dizendo *"É do meu jeito ou não é."* 
 
-Você não está dizendo *"Aqui vai uma ideia para discutirmos"*, está dizendo *"É do meu jeito ou não é."*
-
-Esse botão literalmente bloqueia o merge do PR até que **você** aprove novamente.
-
-É uma ferramenta para tratar **problemas críticos**, não para impor opinião.
+Esse botão literalmente bloqueia o merge do PR até que **você** aprove novamente. É uma ferramenta para tratar **problemas críticos**, não para impor opinião.
 
 ### **Quando o "Request Changes" Faz Sentido**
 
@@ -49,25 +45,19 @@ Existem situações legítimas para usá-lo:
 
 Nesses casos, você está protegendo o sistema, não o seu ego.
 
-Use o **Request Changes** para garantir segurança e estabilidade — não para reforçar gosto pessoal.
+Use o **Request Changes** para garantir segurança e estabilidade, não para reforçar gosto pessoal.
 
 ### **Para Todo o Resto: Comece uma Conversa**
 
-Se o feedback é sobre design, nomeação ou legibilidade, explique *por que* isso importa.
+Se o feedback é sobre design, nomeação ou legibilidade, explique *por que* isso importa. Deixe referências de documentação, artigos ou discussões anteriores que sustentem sua opinião. Um simples *“eu prefiro assim”* não ensina nada.
 
-Deixe referências de documentação, artigos ou discussões anteriores que sustentem sua opinião.
-
-Um simples *“eu prefiro assim”* não ensina nada.
-
-Quando o feedback soa como uma troca, e não como uma rejeição, ele constrói confiança — e confiança leva a um código melhor.
+Quando o feedback soa como uma troca, e não como uma rejeição, ele constrói confiança, e confiança leva a um código melhor.
 
 ### **Padronize o que é Subjetivo**
 
 Se os mesmos debates de estilo continuam aparecendo, automatize.
 
-Configure linters e formatadores no seu pipeline de CI.
-
-Isso tira o “bikeshedding” da camada humana e deixa as reviews focarem no que realmente importa: **lógica, arquitetura e clareza.**
+Configure linters e formatadores no seu pipeline de CI. Isso tira o “bikeshedding” da camada humana e deixa as reviews focarem no que realmente importa: **lógica, arquitetura e clareza.**
 
 ### **Dica: Use o Conventional Comments**
 
@@ -83,10 +73,5 @@ Esse formato deixa a intenção do comentário explícita e mantém a conversa c
 
 ### **Pensamento Final**
 
-Não transforme o botão **Request Changes** em uma arma durante as code reviews.
-
-Uma boa review não é sobre vencer uma discussão, é sobre ajudar uns aos outros a escrever software melhor.
-
-Evite usar “Request Changes” a menos que o sistema realmente dependa disso.
-
-Todo o resto merece uma conversa, não um comando.
+Não transforme o botão **Request Changes** em uma arma durante as code reviews. Uma boa review não é sobre vencer uma discussão, é sobre ajudar uns aos outros a escrever software melhor.
+Evite usar “Request Changes” a menos que o sistema realmente dependa disso. Todo o resto merece uma conversa, não um comando.

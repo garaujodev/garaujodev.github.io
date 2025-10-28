@@ -32,9 +32,7 @@ During a review, you’ll often find things you’d write differently. That’s 
 
 We all have preferences — naming styles, indentation, function length, code structure. But your way isn’t always *the* way. And that’s where many reviewers slip into “authority mode.”
 
-When you hit **Request Changes** for something subjective, you stop the flow of collaboration.
-
-You’re not saying *"Here’s an idea to discuss"* — you’re saying *"My way or the highway."*
+When you hit **Request Changes** for something subjective, you stop the flow of collaboration. You’re not saying *"Here’s an idea to discuss"* — you’re saying *"My way or the highway."*
 
 That button literally blocks the PR from merging until you approve it again. It’s a tool for addressing critical issues, not for expressing opinions.
 
@@ -52,13 +50,9 @@ Use “Request Changes” to safeguard the environment, not to enforce personal 
 
 ### **For Everything Else: Start a Conversation**
 
-If your feedback is about code design, naming, or readability, explain *why* it matters.
+If your feedback is about code design, naming, or readability, explain *why* it matters. Reference documentation, articles, or past discussions that give your opinion context. A simple “I’d prefer it this way” doesn’t teach anyone anything.
 
-Reference documentation, articles, or past discussions that give your opinion context.
-
-A simple “I’d prefer it this way” doesn’t teach anyone anything.
-
-When feedback feels like an exchange instead of a rejection, it builds trust — and trust leads to better code.
+When feedback feels like an exchange instead of a rejection, it builds trust, and trust leads to better code.
 
 ### **Standardize What’s Subjective**
 
