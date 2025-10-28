@@ -74,5 +74,5 @@ This format makes your intent explicit and keeps discussions constructive.
 
 ### **Final Thought**
 
-Don’t Weaponize the Request Changes buttom in Code Reviews. A good review isn’t about winning an argument, it’s about helping each other write better software.
+Don’t Weaponize the Request Changes button in Code Reviews. A good review isn’t about winning an argument, it’s about helping each other write better software.
 Avoid “Request Changes” unless the system truly depends on it. Everything else deserves a conversation, not a command.
