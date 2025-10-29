@@ -8,7 +8,7 @@ description: "Fix Sidekiq pods getting killed during Kubernetes rollouts. Handle
 
 Recently I was debugging an issue with my **Sidekiq + Kubernetes** setup. During rollouts, some pods were getting killed abruptly, jobs were interrupted, and deploys took way longer than expected.
 
-After reading Sidekiq’s Kubernetes guide￼, I realized what was happening: I was starting Sidekiq through a `.sh` script that I called at the end of my **Dockerfile**.
+After reading [Sidekiq’s Kubernetes guide](https://github.com/sidekiq/sidekiq/wiki/Kubernetes), I realized what was happening: I was starting Sidekiq through a `.sh` script that I called at the end of my **Dockerfile**.
 
 ### Problematic approach
 ```dockerfile
