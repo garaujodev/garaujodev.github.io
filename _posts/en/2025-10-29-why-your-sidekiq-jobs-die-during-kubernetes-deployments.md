@@ -43,3 +43,6 @@ spec:
 With this setup, Sidekiq gets the TERM signal directly, goes into quiet mode, and shuts down gracefully - no more lost jobs or stuck rollouts.
 
 A small detail that’s easy to miss, but it makes deployments faster, safer, and more predictable. Kubernetes can’t protect you from a misplaced `/bin/sh -c`.
+
+### References
+ - [Sidekiq Wiki - Kubernetes](https://github.com/sidekiq/sidekiq/wiki/Kubernetes)
