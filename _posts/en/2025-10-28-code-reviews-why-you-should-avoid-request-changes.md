@@ -9,7 +9,7 @@ description: "Learn code review best practices and why \"Request Changes\" shoul
 A code review is meant to help teams write better code together. But when reviewers misuse the “Request Changes” button, it turns a learning process into a power move, and
 code reviews aren’t about control, they’re about collaboration.
 
-When you open a pull request, you’re saying, *"Hey, here’s my idea — what do you think?"* You’re open to feedback (and hopefully expecting it). That’s how teams grow together and keep their codebase healthy.
+When you open a pull request, you’re saying *"Hey, here’s my idea — what do you think?"*. You’re open to feedback (and hopefully expecting it). That’s how teams grow together and keep their codebase healthy.
 
 ### **The Real Purpose of Code Reviews**
 

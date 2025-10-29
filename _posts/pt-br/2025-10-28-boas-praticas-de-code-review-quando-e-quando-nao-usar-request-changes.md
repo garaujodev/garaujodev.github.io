@@ -8,11 +8,11 @@ description: "Aprenda boas práticas de Code Review e por que usar \"Request Cha
 
 O processo de code review existe para ajudar o time a escrever um código melhor, juntos. Mas quando alguém usa o botão **“Request Changes”** da forma errada, o que deveria ser um processo de aprendizado vira um jogo de poder. E code reviews não são sobre controle, são sobre colaboração.
 
-Quando você abre um pull request, está dizendo: *"Ei, aqui está minha ideia — o que você acha?"*. Você está aberto a feedback (e, com sorte, realmente esperando por ele). É assim que times crescem juntos e mantêm uma base de código saudável.
+Quando você abre um pull request, está dizendo *"Ei, aqui está minha ideia — o que você acha?"*. Você está aberto a feedback (e, com sorte, realmente esperando por ele). É assim que times crescem juntos e mantêm uma base de código saudável.
 
 ### **O Verdadeiro Propósito dos Code Reviews**
 
-No fundo, o code review tem dois princípios simples:
+No fundo, o processo de code review tem dois princípios simples:
 
 1. **Escreva código para pessoas, não para máquinas.**
     
