@@ -2,7 +2,7 @@
 layout: post
 title: "TIL: Why Your Sidekiq Jobs Die During Kubernetes Deployments (and How to Fix It)"
 date: 2025-10-29 09:00:00 -0300
-categories: sidekiq rails kubernetes
+categories: sidekiq ruby kubernetes
 description: "Fix Sidekiq pods getting killed during Kubernetes rollouts. Handle SIGTERM correctly and stop losing jobs mid-deployment."
 ---
 
