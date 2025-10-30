@@ -8,11 +8,13 @@ comments: false
 
 ### About me
 
-I'm Gustavo Araujo, a software engineer passionate about building efficient and scalable software solutions. Living in Brazil, with over a decade of professional experience, most of that in remote teams. I’ve worked across various industries, from payments and developer tools to mobility and SaaS platforms, always striving to deliver high-quality, high-performance systems.
+I’m Gustavo Araujo, a software engineer focused on building scalable, reliable, and high-performance systems. I’ve been coding professionally for over a decade, mostly on remote teams, and have worked across industries such as payments, developer tools, mobility, and SaaS.
 
-Currently, I’m a Senior Software Engineer at CloudWalk, where I contribute to the development of InfinitePay, a leading payment solution in Brazil. My focus is on designing and optimizing systems for scalability and reliability, particularly around onboarding new clients and handling millions of daily transactions. I’m dedicated to ensuring code quality, mentoring developers, and fostering a collaborative team environment.
+I love tackling complex technical challenges, especially around distributed systems, system reliability, and high-throughput platforms. My experience includes scaling critical backend services, designing resilient architectures, improving code quality, and mentoring engineering teams.
 
-I’m also an active participant in software development communities and events, where I’ve had the opportunity to share knowledge and present talks. I enjoy contributing to open-source projects, which allows me to collaborate with developers worldwide and give back to the community that inspires me daily. Engaging with the community and open source fuels my growth and helps me stay at the forefront of industry trends.
+I care deeply about clean code, strong engineering practices, and creating environments where developers can do their best work. I’m active in the tech community, sharing knowledge through talks, open-source contributions, and technical content.
+
+Always learning, always building.
 
 Feel free to connect with me on my social accounts, like Twitter/X.
 
@@ -21,4 +23,3 @@ Feel free to connect with me on my social accounts, like Twitter/X.
 - [{{ site.plainwhite.email }}](mailto:{{ site.plainwhite.email }})
 - [GitHub](https://github.com/{{ site.plainwhite.social_links.github }})
 - [Twitter/X](https://x.com/{{ site.plainwhite.social_links.twitter }})
-- [Instagram](https://instagram.com/{{ site.plainwhite.social_links.instagram }})
