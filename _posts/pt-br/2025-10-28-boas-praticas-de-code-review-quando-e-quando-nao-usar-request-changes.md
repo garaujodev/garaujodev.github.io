@@ -65,7 +65,7 @@ Se quiser deixar seus comentários mais claros e amigáveis, dê uma olhada no [
 
 Ele ajuda a estruturar feedbacks com prefixos como:
 
-- nit: para pequenas sugestões
+- nitpick: para pequenas sugestões
 - question: para dúvidas
 - suggestion: para melhorias
 

@@ -66,7 +66,7 @@ If you want to make your review comments clearer and friendlier, check out [Conv
 
 It helps you structure feedback with prefixes like:
 
-- nit: for small suggestions
+- nitpick: for small suggestions
 - question: for clarifications
 - suggestion: for improvements
 
