@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Iniciando uma carreira em programação"
+title: 'Iniciando uma carreira em programação'
 date: 2024-01-10 10:00:00 -0300
 categories: opinioes
-description: "Nesse artigo vamos abordar algumas das perguntas mais comuns que iniciantes tem quando pretendem iniciar uma carreira em programação. Levantaremos alguns pontos importantes, bem como iremos discorrer sobre assuntos como faculdade, os requisitoes, dentre outros."
+image: 'assets/rubocop-linter/rubocop-cover.png'
+description: 'Nesse artigo vamos abordar algumas das perguntas mais comuns que iniciantes tem quando pretendem iniciar uma carreira em programação. Levantaremos alguns pontos importantes, bem como iremos discorrer sobre assuntos como faculdade, os requisitoes, dentre outros.'
 ---
 
-
-Desde o começo da minha carreira com programação, com certeza a dúvida mais comum que ouvi, por meio das minhas participações ativas de comunidades e minha rede de contatos, sempre foi e é: como iniciar uma carreira em programação. 
+Desde o começo da minha carreira com programação, com certeza a dúvida mais comum que ouvi, por meio das minhas participações ativas de comunidades e minha rede de contatos, sempre foi e é: como iniciar uma carreira em programação.
 
 Meu propósito aqui é centralizar minha opinião de forma a responder essa pergunta com um pouco do meu conhecimento e trajetória, lhe revelar as habilidades fundamentais que você precisa desenvolver, quebrar alguns mitos e fornecer algumas dicas para você se destacar, caso você pretenda seguir essa profissão.
 
@@ -39,17 +39,18 @@ Não há limite ou recomendação de idade para iniciar uma carreira em programa
 
 ## Matemática
 
-Embora em muitos momentos a programação envolva lógica e resolução de problemas, não é necessário ser um(a) especialista em matemática para se tornar um(a) programador(a). Embora algumas áreas como ciência de dados e desenvolvimento de jogos possam exigir um conhecimento mais aprofundado de matemática, a maioria das tarefas de programação cotidianas não requer habilidades matemáticas avançadas. 
+Embora em muitos momentos a programação envolva lógica e resolução de problemas, não é necessário ser um(a) especialista em matemática para se tornar um(a) programador(a). Embora algumas áreas como ciência de dados e desenvolvimento de jogos possam exigir um conhecimento mais aprofundado de matemática, a maioria das tarefas de programação cotidianas não requer habilidades matemáticas avançadas.
 
 Noções básicas de matemática, como aritmética e álgebra, são geralmente suficientes para a maioria das áreas de programação. Claro que, existem situações que ter um domínio de matemática pode lhe fazer achar uma solução ainda melhor, porém são ocasiões, e nesses casos você pode contar com ajuda de outros programadores e da comunidade, bem como buscar esse conhecimento quando necessário.
 
 ## Faculdade
 
-Essa é uma discussão muito relativa, que divide opiniões. Há quem defenda que é importante e há quem defenda que não. Mas uma coisa é fato: A obtenção de um diploma universitário em ciência da computação ou áreas relacionadas pode ser benéfica para a carreira em programação, mas não é um requisito obrigatório. No Brasil, a área de tecnologia não é regulamentada por um conselho, como outras áreas, portanto você não precisa de um diploma para de fato atuar como programador. Mas se você pretende imigrar, ou trabalhar em órgãos governamentais, um diploma pode ser sim um requisito. 
+Essa é uma discussão muito relativa, que divide opiniões. Há quem defenda que é importante e há quem defenda que não. Mas uma coisa é fato: A obtenção de um diploma universitário em ciência da computação ou áreas relacionadas pode ser benéfica para a carreira em programação, mas não é um requisito obrigatório. No Brasil, a área de tecnologia não é regulamentada por um conselho, como outras áreas, portanto você não precisa de um diploma para de fato atuar como programador. Mas se você pretende imigrar, ou trabalhar em órgãos governamentais, um diploma pode ser sim um requisito.
 
 Vale ressaltar que, muitas pessoas aprendem a programar por conta própria, utilizando recursos online, cursos, tutoriais e projetos pessoais. Então você não necessariamente precisa passar por uma faculdade para obter esse conhecimento. O mais importante é adquirir habilidades práticas em programação, construir um portfólio de projetos e demonstrar conhecimento e experiência por meio de sua capacidade de resolver problemas reais.
 
 ### Qual a melhor instituição de ensino superior?
+
 Essa definitivamente é uma pergunta bem relativa, e eu não me preocuparia com ela se fosse você. Um diploma superior é um diploma superior, e pelo menos na área de TI nunca vi isso ser levado tão ao pé da letra quanto a instituição. Entre naquela que esteja mais a seu alcance. Mas se essa informação é tão importante para você, procure pelo ranking RUF, ou pelo ranking do MEC que avalia as instituições de ensino em território brasileiro, o IGC (Índice Geral de Cursos Avaliados da Instituição).
 
 # Área de atuação
@@ -76,7 +77,7 @@ Lembre-se de que, independentemente da área escolhida, o aprendizado contínuo 
 
 Em um primeiro momento, é fundamental focar nos conceitos básicos da computação e programação, como algoritmos, estruturas de controle, variáveis, funções, tipos de dados e estruturas de dados. Dominar esses fundamentos proporciona uma base sólida para iniciar a jornada na programação e permite a criação de programas simples. Compreender esses conceitos básicos é essencial para progredir e se aprofundar na programação.
 
-Mas esta é uma pergunta que divide muitas opiniões. Se você perguntar em qualquer comunidade, vai ter uma enxurrada de sugestões diferentes, em que geralmente são baseados no “se funcionou para mim, funciona para todo mundo”, portanto sabemos que não é bem assim. É importante que você mergulhe de cabeça em diferentes tecnologias, escolha algo que lhe seja acessível e lhe deixe confortável, e assim tire sua própria conclusão. 
+Mas esta é uma pergunta que divide muitas opiniões. Se você perguntar em qualquer comunidade, vai ter uma enxurrada de sugestões diferentes, em que geralmente são baseados no “se funcionou para mim, funciona para todo mundo”, portanto sabemos que não é bem assim. É importante que você mergulhe de cabeça em diferentes tecnologias, escolha algo que lhe seja acessível e lhe deixe confortável, e assim tire sua própria conclusão.
 
 Porém, caso você esteja visando uma carreira, é recomendável aprender uma linguagem de programação popular e amplamente utilizada, pois isso pode fornecer mais oportunidades de trabalho e recursos de aprendizado. Mas recomendo que, use dados verdadeiros para definir o que é mais amplamente usada, e não opiniões de pessoas enviesadas. Recomendo consultar o [StackOverflow Survey](https://survey.stackoverflow.co/), uma pesquisa anual que coleta informações sobre a comunidade global de desenvolvedores de software.
 
@@ -89,7 +90,7 @@ O importante aqui, é que você escolha uma dessas linguagens e estude seus conc
 
 ## Como me diferenciar de outros devs?
 
-A prática é essencial para aprimorar suas habilidades de programação e demonstrar o seu comprometimento com a área. Ao criar projetos e compartilhá-los no GitHub, você mostra não apenas a sua capacidade técnica, mas também a sua dedicação em resolver problemas reais e desenvolver soluções práticas. Isso destaca a sua experiência prática e a sua capacidade de aplicar os conceitos aprendidos em situações reais. Além disso, a contribuição para o GitHub também demonstra a sua disposição em colaborar com outros desenvolvedores, aprender com a comunidade e construir um portfólio sólido. Essa combinação de prática ativa e compartilhamento de projetos diferencia você como um desenvolvedor comprometido e pronto para enfrentar desafios complexos na área de programação. 
+A prática é essencial para aprimorar suas habilidades de programação e demonstrar o seu comprometimento com a área. Ao criar projetos e compartilhá-los no GitHub, você mostra não apenas a sua capacidade técnica, mas também a sua dedicação em resolver problemas reais e desenvolver soluções práticas. Isso destaca a sua experiência prática e a sua capacidade de aplicar os conceitos aprendidos em situações reais. Além disso, a contribuição para o GitHub também demonstra a sua disposição em colaborar com outros desenvolvedores, aprender com a comunidade e construir um portfólio sólido. Essa combinação de prática ativa e compartilhamento de projetos diferencia você como um desenvolvedor comprometido e pronto para enfrentar desafios complexos na área de programação.
 
 Participar ativamente de comunidades online, interagir com outros profissionais e até mesmo escrever conteúdo complementar aprimora ainda mais essa distinção, permitindo que você se destaque como uma figura proeminente e respeitada na comunidade de desenvolvimento. Se desafiar em plataformas como [HackerHank](https://www.hackerrank.com/) e [LeetCode](https://leetcode.com/) é uma ótima forma de validar seus conhecimentos e aprender coisas novas, e com certeza vai te deixar a frente de muitos outros desenvolvedores.
 
@@ -104,16 +105,18 @@ Para conseguir um emprego na área de programação, é importante destacar-se e
 5. Networking com outros desenvolvedores: Busque ativamente oportunidades de networking com outros desenvolvedores. Isso pode ser feito por meio de eventos presenciais, redes sociais profissionais, grupos de interesse e até mesmo por meio de conexões estabelecidas nas comunidades online. Crie um bom LinkedIn, faça conexões com pessoas que compartilham do mesmo interesse. Isso vai permitir que você seja encontrado. É importante lembrar que o networking e a participação em comunidades online não são apenas para conseguir um emprego, mas também para desenvolver relacionamentos significativos com outros profissionais da área. Ao compartilhar conhecimento, ajudar os outros e estar envolvido na comunidade, você se torna um desenvolvedor mais valorizado e reconhecido. Aproveite essas oportunidades para aprender, crescer e construir uma rede sólida de contatos que podem abrir portas para futuras oportunidades profissionais.
 
 ### Eu consigo emprego com tal curso?
+
 Nenhum curso vai te garantir um emprego, e para ser sincero, o conhecimento adquirido em um só vai te deixar mais próximo de um emprego, se aplicado. Isto é, além de simplesmente ter um certificado, tenha em seu GitHub o código que demonstre que você adquiriu domínio daquele tema. Mas tenha em mente que copiar e colar os códigos de quem esteja ensinando e colocar no GitHub como seu é uma péssima prática, qualquer dev/recruiter com conhecimento intermediário vai saber que seu código é apenas copy e paste. Já vi pessoas com um milhão de certificados, mas sem conhecimento básico dos temas aos quais ela é certificada, não cometa esse erro.
 
 ### Como ser encontrado?
+
 Consideraremos aqui que você já definiu seu foco inicial e está focado em uma linguagem/tecnologia, bem como levou em consideração os aspectos mencionados acima. Agora o próximo passo é aplicar em algumas vagas, e ser encontrado. O primeiro passo é escrever um bom cúrriculo, que seja totalmente focado em sua carreira na área de programação e tecnologia. Prese pelo simples, esqueça outras experiências que você teve, que não estejam diretamente relacionadas a tecnologia, é irrelevante para um recrutador e isso só faz seu currículo ser descartado. Foque em descrever sua trajetória até o momento, bem como o que já construiu, que seja projetos pessoais ou não, focando principalmente nas dificuldades que teve de enfrentar, e como as superou. Isso não só prova que você é um excelente solucionador de problemas, mas que também aprende com eles.
 
 A partir de agora, é importante se posicionar no mercado e se expor de forma profissional. Crie um LinkedIn e descreça bem seus aprendizados, faça conexões com outras pessoas que compartilham do mesmo interesse que você, e aos poucos você vai começar a ser notado pelo algoritmo do LinkedIn, recebendo assim alguns contatos de recrutadores em busca de profissionais com seu perfil. Mantenha-o atualizado sempre que possível, com suas habilidades e com links que achar interessante expor, como GitHub, artigos, dentre outros.
 
 ### Tenho uma entrevista, e agora?
-Já em uma segunda etapa, algumas empresas solicitam a execução e entrega de um teste técnico que prove suas habilidades, bem como a forma que você escreve código. Mas não se preocupe, esteja sempre pronto para essas situações, use e abuse de plataformas já mencionadas, como [HackerHank](https://www.hackerrank.com/) e [LeetCode](https://leetcode.com/), onde você vai conseguir resolver de problemas simples, envolvendo entrada e saída, bem como problemas mais complexos que exigem um conhecimento maior, e até conceitos matemáticos.
 
+Já em uma segunda etapa, algumas empresas solicitam a execução e entrega de um teste técnico que prove suas habilidades, bem como a forma que você escreve código. Mas não se preocupe, esteja sempre pronto para essas situações, use e abuse de plataformas já mencionadas, como [HackerHank](https://www.hackerrank.com/) e [LeetCode](https://leetcode.com/), onde você vai conseguir resolver de problemas simples, envolvendo entrada e saída, bem como problemas mais complexos que exigem um conhecimento maior, e até conceitos matemáticos.
 
 # Conclusão
 

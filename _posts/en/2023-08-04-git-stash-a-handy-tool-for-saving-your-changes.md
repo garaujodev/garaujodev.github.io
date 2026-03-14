@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Git Stash: A Handy Tool for Saving Your Changes"
+title: 'Git Stash: A Handy Tool for Saving Your Changes'
 date: 2023-08-04 09:00:00 -0300
 categories: git
-description: "Discover how this handy tool empowers developers to save and manage their changes effortlessly, ensuring a seamless workflow without messy commits."
+image: 'assets/rubocop-linter/rubocop-cover.png'
+description: 'Discover how this handy tool empowers developers to save and manage their changes effortlessly, ensuring a seamless workflow without messy commits.'
 ---
 
 Hey fellow developers! 👋

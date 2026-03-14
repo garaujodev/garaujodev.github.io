@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "TIL: How to remove unused deps from mix.lock in Elixir"
+title: 'TIL: How to remove unused deps from mix.lock in Elixir'
 date: 2022-12-07 10:52:14 -0300
 categories: elixir
+image: 'assets/rubocop-linter/rubocop-cover.png'
 description: Today I Learned how to unlock dependencies removing the unused ones from your mix.lock file to keep your .lock file always updated
 ---
 
@@ -30,6 +31,7 @@ So to keep your `mix.lock` file updated, just run:
 ```bash
 mix deps.unlock --unused --check-unused
 ```
+
 **Important note**: This command only unlocks dependencies, to remove it completely, including build artifacts and fetched sources, you can use the following command:
 
 ```bash
