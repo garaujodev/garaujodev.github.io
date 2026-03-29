@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Truques em Elixir: Delegando uma função para outro módulo usando defdelegate"
+title: 'Truques em Elixir: Delegando uma função para outro módulo usando defdelegate'
 date: 2023-08-04 08:00:00 -0300
 categories: elixir
-description: "Melhore a elegância do código com a macro defdelegate do Elixir! Delegue chamadas de função sem esforço, obtendo um código organizado e reutilizável. Simplifique módulos complexos e aprimore a manutenção. Aproveite o potencial da metaprogramação do Elixir para desenvolvimento eficaz!"
+image: 'assets/rubocop-linter/rubocop-cover.png'
+description: 'Melhore a elegância do código com a macro defdelegate do Elixir! Delegue chamadas de função sem esforço, obtendo um código organizado e reutilizável. Simplifique módulos complexos e aprimore a manutenção. Aproveite o potencial da metaprogramação do Elixir para desenvolvimento eficaz!'
 ---
 
 Às vezes, precisamos escrever funções em Elixir que funcionam como uma ponte entre módulos, permitindo-nos usar funcionalidades específicas de outro módulo, veja o seguinte exemplo:

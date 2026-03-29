@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Building concurrent and fault-tolerant systems: Why Elixir"
+title: 'Building concurrent and fault-tolerant systems: Why Elixir'
 date: 2023-01-24 11:52:14 -0300
 categories: elixir
+image: 'assets/rubocop-linter/rubocop-cover.png'
 description: When it comes to building modern, high-performance systems, concurrency and fault tolerance are key considerations. Let's see why Elixir is an excellent choice.
 ---
 

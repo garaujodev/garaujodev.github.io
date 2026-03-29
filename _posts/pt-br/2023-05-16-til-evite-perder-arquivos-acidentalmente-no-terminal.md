@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "TIL: Evite perder arquivos acidentalmente no terminal usando safe-rm"
+title: 'TIL: Evite perder arquivos acidentalmente no terminal usando safe-rm'
 date: 2023-05-16 08:00:00 -0300
 categories: workflow
-description: "Evite perder arquivos apagados acidentalmente pelo terminal utilizando o safe-rm: uma ferramenta que vai mover seus arquivos em vez de apaga-los efetivamente"
+image: 'assets/rubocop-linter/rubocop-cover.png'
+description: 'Evite perder arquivos apagados acidentalmente pelo terminal utilizando o safe-rm: uma ferramenta que vai mover seus arquivos em vez de apaga-los efetivamente'
 ---
 
 Recentemente, assumi uma tarefa na SourceLevel, meu trabalho atual, que envolvia a elaboração completa
