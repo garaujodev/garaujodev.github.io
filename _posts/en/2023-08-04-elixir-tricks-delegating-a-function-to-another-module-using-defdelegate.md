@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Elixir tricks: Delegating a function to another module using defdelegate"
+title: 'Elixir tricks: Delegating a function to another module using defdelegate'
 date: 2023-08-04 08:00:00 -0300
 categories: elixir
+image: 'assets/rubocop-linter/rubocop-cover.png'
 description: "Unlock code elegance with Elixir's defdelegate macro! Seamlessly delegate function calls, promoting clean code and reusability. Simplify complex modules and enhance maintainability. Embrace the power of Elixir's metaprogramming for efficient development!"
 ---
 

@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "TIL: Why Your Sidekiq Jobs Die During Kubernetes Deployments (and How to Fix It)"
+title: 'TIL: Why Your Sidekiq Jobs Die During Kubernetes Deployments (and How to Fix It)'
 date: 2025-10-29 09:00:00 -0300
 categories: sidekiq ruby kubernetes
-description: "Fix Sidekiq pods getting killed during Kubernetes rollouts. Handle SIGTERM correctly and stop losing jobs mid-deployment."
+image: 'assets/rubocop-linter/rubocop-cover.png'
+description: 'Fix Sidekiq pods getting killed during Kubernetes rollouts. Handle SIGTERM correctly and stop losing jobs mid-deployment.'
 ---
 
 Recently I was debugging an issue with my **Sidekiq + Kubernetes** setup. During rollouts, some pods were getting killed abruptly, jobs were interrupted, and deploys took way longer than expected.
@@ -11,6 +12,7 @@ Recently I was debugging an issue with my **Sidekiq + Kubernetes** setup. During
 After reading [Sidekiq’s Kubernetes guide](https://github.com/sidekiq/sidekiq/wiki/Kubernetes), I realized what was happening: I was starting Sidekiq through a `.sh` script that I called at the end of my **Dockerfile**.
 
 ### Problematic approach
+
 ```dockerfile
 CMD ["/bin/sh", "-c", "./start_sidekiq.sh"]
 ```
@@ -20,8 +22,8 @@ That means Sidekiq never receives the signal to enter the quiet state and finish
 
 In my case, that explained why some jobs were vanishing mid-deploy.
 
-
 ### The fix
+
 Run Sidekiq directly, without a shell wrapper, so the Kubernetes signal reaches the actual process:
 
 ```yaml
@@ -36,8 +38,8 @@ spec:
       containers:
         - name: sidekiq
           image: myapp:latest
-          command: ["bundle", "exec", "sidekiq"]
-          args: ["-t", "100", "-e", "production", "-C", "config/sidekiq.yml"]
+          command: ['bundle', 'exec', 'sidekiq']
+          args: ['-t', '100', '-e', 'production', '-C', 'config/sidekiq.yml']
 ```
 
 With this setup, Sidekiq gets the TERM signal directly, goes into quiet mode, and shuts down gracefully - no more lost jobs or stuck rollouts.
@@ -45,4 +47,5 @@ With this setup, Sidekiq gets the TERM signal directly, goes into quiet mode, an
 A small detail that’s easy to miss, but it makes deployments faster, safer, and more predictable. Kubernetes can’t protect you from a misplaced `/bin/sh -c`.
 
 ### References
- - [Sidekiq Wiki - Kubernetes](https://github.com/sidekiq/sidekiq/wiki/Kubernetes)
+
+- [Sidekiq Wiki - Kubernetes](https://github.com/sidekiq/sidekiq/wiki/Kubernetes)

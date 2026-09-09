@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "GitHub CLI: PRs, Issues e mais do GitHub direto no terminal"
+title: 'GitHub CLI: PRs, Issues e mais do GitHub direto no terminal'
 date: 2021-01-10 10:00:00 -0300
 categories: ferramentas
-description: "Um overview sobre a nova ferramenta do GitHub: PRs, Issues e outros conceitos do GitHub direto no terminal"
+image: 'assets/rubocop-linter/rubocop-cover.png'
+description: 'Um overview sobre a nova ferramenta do GitHub: PRs, Issues e outros conceitos do GitHub direto no terminal'
 ---
 
 ### O que é?
@@ -79,7 +80,6 @@ Abaixo temos algumas das coisas interessantes que essa ferramenta nos permite fa
   ![GIF exemplificando o uso do comando](/assets/github-cli/pr_cut_2.gif)
 
   Algum dos parâmetros interessantes que temos aqui:
-
   - Com o parâmetro `-B` podemos especificar o base branch, isto é, para qual branch essas alterações serão enviadas após o merge:
 
   ```bash

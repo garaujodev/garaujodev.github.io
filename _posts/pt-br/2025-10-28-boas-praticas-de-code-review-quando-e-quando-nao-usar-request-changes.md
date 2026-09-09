@@ -1,27 +1,27 @@
 ---
 layout: post
-title: "Boas práticas de Code Review: quando (e quando não) usar \"Request Changes\""
+title: 'Boas práticas de Code Review: quando (e quando não) usar "Request Changes"'
 date: 2025-10-28 09:00:00 -0300
 categories: code-review
-description: "Aprenda boas práticas de Code Review e por que usar \"Request Changes\" com cuidado para manter a colaboração e a confiança no time."
+image: 'assets/rubocop-linter/rubocop-cover.png'
+description: 'Aprenda boas práticas de Code Review e por que usar "Request Changes" com cuidado para manter a colaboração e a confiança no time.'
 ---
 
 O processo de code review existe para ajudar o time a escrever um código melhor, juntos. Mas quando alguém usa o botão **“Request Changes”** da forma errada, o que deveria ser um processo de aprendizado vira um jogo de poder. E code reviews não são sobre controle, são sobre colaboração.
 
-Quando você abre um pull request, está dizendo *"Ei, aqui está minha ideia — o que você acha?"*. Você está aberto a feedback (e, com sorte, realmente esperando por ele). É assim que times crescem juntos e mantêm uma base de código saudável.
+Quando você abre um pull request, está dizendo _"Ei, aqui está minha ideia — o que você acha?"_. Você está aberto a feedback (e, com sorte, realmente esperando por ele). É assim que times crescem juntos e mantêm uma base de código saudável.
 
 ### **O Verdadeiro Propósito dos Code Reviews**
 
 No fundo, o processo de code review tem dois princípios simples:
 
 1. **Escreva código para pessoas, não para máquinas.**
-    
-    Seus colegas devem conseguir entender seu código sem precisar decifrar sua cabeça.
-    
+
+   Seus colegas devem conseguir entender seu código sem precisar decifrar sua cabeça.
+
 2. **Compartilhe conhecimento e alinhe o entendimento do time.**
-    
-    Cada review é uma chance de espalhar contexto — não apenas encontrar erros.
-    
+
+   Cada review é uma chance de espalhar contexto — não apenas encontrar erros.
 
 Se sua review não ajuda o time a evoluir em pelo menos um desses dois pontos, talvez ela não esteja cumprindo seu papel.
 
@@ -29,9 +29,9 @@ Se sua review não ajuda o time a evoluir em pelo menos um desses dois pontos, t
 
 Durante uma review, é comum encontrar trechos que você escreveria de outro jeito. E é natural.
 
-Cada pessoa tem preferências: nomeação, indentação, tamanho de função, estrutura de código. Mas o seu jeito não é *o* jeito. E é aí que muitos revisores escorregam para o modo “autoritário”.
+Cada pessoa tem preferências: nomeação, indentação, tamanho de função, estrutura de código. Mas o seu jeito não é _o_ jeito. E é aí que muitos revisores escorregam para o modo “autoritário”.
 
-Quando você usa **Request Changes** por algo subjetivo, você interrompe o fluxo de colaboração. Você não está dizendo *"Aqui vai uma ideia para discutirmos"*, está dizendo *"É do meu jeito ou não é."* 
+Quando você usa **Request Changes** por algo subjetivo, você interrompe o fluxo de colaboração. Você não está dizendo _"Aqui vai uma ideia para discutirmos"_, está dizendo _"É do meu jeito ou não é."_
 
 Esse botão literalmente bloqueia o merge do PR até que **você** aprove novamente. É uma ferramenta para tratar **problemas críticos**, não para impor opinião.
 
@@ -49,7 +49,7 @@ Use o **Request Changes** para garantir segurança e estabilidade, não para ref
 
 ### **Para Todo o Resto: Comece uma Conversa**
 
-Se o feedback é sobre design, nomeação ou legibilidade, explique *por que* isso importa. Deixe referências de documentação, artigos ou discussões anteriores que sustentem sua opinião. Um simples *“eu prefiro assim”* não ensina nada.
+Se o feedback é sobre design, nomeação ou legibilidade, explique _por que_ isso importa. Deixe referências de documentação, artigos ou discussões anteriores que sustentem sua opinião. Um simples _“eu prefiro assim”_ não ensina nada.
 
 Quando o feedback soa como uma troca, e não como uma rejeição, ele constrói confiança, e confiança leva a um código melhor.
 

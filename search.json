@@ -1,14 +1,24 @@
 ---
-layout: none
+layout: null
+sitemap:
+  exclude: 'yes'
 ---
 [
   {% for post in site.posts %}
     {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
+      "title"    : "{{ post.title | strip_html | escape | replace: '"', '\"' }}",
+      "title-lower"    : "{{ post.title | strip_html | escape | downcase | replace: '"', '\"' }}",
+      "sub-titile" : "{{ post.subtitle | escape | replace: '"', '\"' }}",
+      "sub-titile-lower" : "{{ post.subtitle | escape | downcase | replace: '"', '\"' }}",
+      "categories" : "{{ post.categories }}",
+      "language" : "{{ post.language }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}"
+      "date"     : "{{ post.date | date: site.linguica.date_format | default: '%b %-d, %Y' }}",
+      "content"     : "{{ post.content | strip_html | strip_newlines | escape | truncate: 200 | replace: '"', '\"' }}",
+      "excerpt"  : "{{ post.excerpt | strip_html | strip_newlines | escape | truncate: 80 | replace: '"', '\"' }}",
+      "image"    : "{{ post.image | default: '' }}",
+      "author"   : "{{ post.author | default: site.linguica.name | escape | replace: '"', '\"' }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

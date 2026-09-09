@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Por que você deveria assinar seus commits"
+title: 'Por que você deveria assinar seus commits'
 date: 2023-03-12 08:00:00 -0300
 categories: git
+image: 'assets/rubocop-linter/rubocop-cover.png'
 description: Você sabia que qualquer um pode fazer commits no git usando seu nome de usuário? Vou ensinar sobre alguns metadados incluídos em cada commit e como alguém pode usá-los para se passar por você.
 ---
 

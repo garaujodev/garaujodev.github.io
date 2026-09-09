@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Git Stash: Uma ferramenta útil para salvar suas alterações"
+title: 'Git Stash: Uma ferramenta útil para salvar suas alterações'
 date: 2023-08-04 09:00:00 -0300
 categories: git
-description: "Descubra como essa ferramenta útil possibilita aos desenvolvedores salvar e gerenciar suas mudanças com facilidade, garantindo um fluxo de trabalho contínuo sem commits sujos e confusos."
+image: 'assets/rubocop-linter/rubocop-cover.png'
+description: 'Descubra como essa ferramenta útil possibilita aos desenvolvedores salvar e gerenciar suas mudanças com facilidade, garantindo um fluxo de trabalho contínuo sem commits sujos e confusos.'
 ---
 
 Olá, colegas desenvolvedores! 👋

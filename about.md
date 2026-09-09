@@ -20,6 +20,6 @@ Feel free to connect with me on my social accounts, like Twitter/X.
 
 #### Reach me out ✨
 
-- [{{ site.plainwhite.email }}](mailto:{{ site.plainwhite.email }})
-- [GitHub](https://github.com/{{ site.plainwhite.social_links.github }})
-- [Twitter/X](https://x.com/{{ site.plainwhite.social_links.twitter }})
+- [{{ site.linguica.email }}](mailto:{{ site.linguica.email }})
+- [GitHub](https://github.com/{{ site.linguica.social_links.github }})
+- [Twitter/X](https://x.com/{{ site.linguica.social_links.twitter }})

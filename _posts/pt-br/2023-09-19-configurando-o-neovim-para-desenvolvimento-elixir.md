@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Configurando o Neovim para Desenvolvimento Elixir"
+title: 'Configurando o Neovim para Desenvolvimento Elixir'
 date: 2023-09-19 10:00:00 -0300
 categories: elixir
-description: "O Neovim é um poderoso editor que pode ser transformado em uma IDE completa para Elixir com a adição de algumas ferramentas e extensões. Neste guia, vamos explorar como montar um ambiente otimizado para desenvolvimento Elixir no Neovim."
+image: 'assets/rubocop-linter/rubocop-cover.png'
+description: 'O Neovim é um poderoso editor que pode ser transformado em uma IDE completa para Elixir com a adição de algumas ferramentas e extensões. Neste guia, vamos explorar como montar um ambiente otimizado para desenvolvimento Elixir no Neovim.'
 ---
 
 O Neovim é um poderoso editor que pode ser transformado em uma IDE completa para Elixir com a adição de algumas ferramentas e extensões. Neste guia, vamos explorar como montar um ambiente otimizado para desenvolvimento Elixir no Neovim.
@@ -51,23 +52,23 @@ Você pode instalar usando a interface do próprio Mason, que é acessada usando
 
 Outra forma de instalacão, um pouco mais pragmatica, é fazendo isso via arquivo de plugin. Crie um arquivo com qualquer nome no diretório `~/.config/nvim/lua/plugins/` com a extensão `.lua`. Nesse caso, iremos adotar `elixir.lua`:
 
-  ```bash
-  nvim ~/.config/nvim/lua/plugins/elixir.lua
-  ```
+```bash
+nvim ~/.config/nvim/lua/plugins/elixir.lua
+```
 
-  Dentro desse arquivo, cole o seguinte trecho:
+Dentro desse arquivo, cole o seguinte trecho:
 
-  ```lua
-  return {
-    {
-      "williamboman/mason.nvim",
-      opts = function(_, opts)
-        vim.list_extend(opts.ensure_installed, {
-          "elixir-ls",
-        })
-      end,
-    },
-  }
+```lua
+return {
+  {
+    "williamboman/mason.nvim",
+    opts = function(_, opts)
+      vim.list_extend(opts.ensure_installed, {
+        "elixir-ls",
+      })
+    end,
+  },
+}
 ```
 
 Como você pode ver, extendemos a funcionalidade do Mason, adicionando o `elixir-ls` a lista do `ensure_installed` que vai garantir que esse plugin esteja instalado quando iniciarmos o neovim. Você pode adicionar outros plugins, caso queira. Salve o arquivo e reinicie o seu Neovim.
@@ -82,9 +83,9 @@ Para syntax highlight usaremos o [treesitter](https://github.com/nvim-treesitter
 
 Para instalar via comando, você só precisa executar o seguinte comando:
 
-  ```jsx
-  :TSInstall elixir
-  ```
+```jsx
+:TSInstall elixir
+```
 
 Lembrando que o TreeSitter tem uma infinidade de parsers para várias linguagens, que pode ser consultada no [repositório oficial](https://github.com/nvim-treesitter/nvim-treesitter#supported-languages).
 
@@ -92,85 +93,85 @@ Lembrando que o TreeSitter tem uma infinidade de parsers para várias linguagens
 
 Abra novamente o arquivo `~/.config/nvim/lua/plugins/elixir.lua` e adicione o seguinte trecho após as aspas de fechamento do primeiro bloco, do LSP (`},`):
 
-  ```lua
+```lua
+{
+    "nvim-treesitter/nvim-treesitter",
+    opts = function(_, opts)
+      vim.list_extend(opts.ensure_installed, {
+        "elixir",
+        "heex",
+        "eex",
+      })
+    end,
+  },
+```
+
+Você pode criar um novo arquivo `.lua` dentro da pasta `/plugins` com o nome que desejar. Fica totalmente a seu critério.
+
+O arquivo final (`elixir.lua`), com a configuração do LSP e do syntax highlight deve ficar assim:
+
+```lua
+return {
   {
-      "nvim-treesitter/nvim-treesitter",
-      opts = function(_, opts)
-        vim.list_extend(opts.ensure_installed, {
-          "elixir",
-          "heex",
-          "eex",
-        })
-      end,
-    },
-  ```
-
-  Você pode criar um novo arquivo `.lua` dentro da pasta `/plugins` com o nome que desejar. Fica totalmente a seu critério.
-
-  O arquivo final (`elixir.lua`), com a configuração do LSP e do syntax highlight deve ficar assim:
-
-  ```lua
-  return {
-    {
-      "williamboman/mason.nvim",
-      opts = function(_, opts)
-        vim.list_extend(opts.ensure_installed, {
-          "elixir-ls",
-        })
-      end,
-    },
-    {
-      "nvim-treesitter/nvim-treesitter",
-      opts = function(_, opts)
-        vim.list_extend(opts.ensure_installed, {
-          "elixir",
-          "heex",
-          "eex",
-        })
-      end,
-    },
-  }
-  ```
+    "williamboman/mason.nvim",
+    opts = function(_, opts)
+      vim.list_extend(opts.ensure_installed, {
+        "elixir-ls",
+      })
+    end,
+  },
+  {
+    "nvim-treesitter/nvim-treesitter",
+    opts = function(_, opts)
+      vim.list_extend(opts.ensure_installed, {
+        "elixir",
+        "heex",
+        "eex",
+      })
+    end,
+  },
+}
+```
 
 ## 3. Interação com testes: Configurando o Neotest
 
 O Neotest é um framework extensível para interagir com testes dentro do NeoVim. Seu uso permite listar os testes existentes, bem como executa-los e obter seu status sem precisar sair do seu editor. Você vai ter acesso a um sumário listando todos os testes que passaram, quais falharam, bem como os outputs dos testes que falharam, dentre outras.
 
-  ![Interface do Neovim utilizando neotest](/assets/configurando-neovim-para-elixir/lazyvim-neotest.png)
+![Interface do Neovim utilizando neotest](/assets/configurando-neovim-para-elixir/lazyvim-neotest.png)
 
 O Lazyvim já nos oferece o neotest como um extra. Você só precisa habilita-lo. Abra o arquivo `~/.config/nvim/lua/config/lazy.lua` e adicione o seguinte extra:
 
-  ```lua
-  { import = "lazyvim.plugins.extras.test.core" },
-  ```
+```lua
+{ import = "lazyvim.plugins.extras.test.core" },
+```
 
 Sua sessão `spec` deve se parecer a algo como isso:
 
-  ```lua
-  spec = {
-      -- add LazyVim and import its plugins
-      { "LazyVim/LazyVim", import = "lazyvim.plugins" },
-      -- import any extras modules here
-      -- { import = "lazyvim.plugins.extras.lang.typescript" },
-      -- { import = "lazyvim.plugins.extras.lang.json" },
-      -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
-      { import = "lazyvim.plugins.extras.test.core" },
-      -- import/override with your plugins
-      { import = "plugins" },
-    },
-  ```
+```lua
+spec = {
+    -- add LazyVim and import its plugins
+    { "LazyVim/LazyVim", import = "lazyvim.plugins" },
+    -- import any extras modules here
+    -- { import = "lazyvim.plugins.extras.lang.typescript" },
+    -- { import = "lazyvim.plugins.extras.lang.json" },
+    -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
+    { import = "lazyvim.plugins.extras.test.core" },
+    -- import/override with your plugins
+    { import = "plugins" },
+  },
+```
 
 Caso queira saber mais sobre os extras que o Lazyvim possui, você pode consultar o menu lateral “Extras” diretamente no [site oficial](https://www.lazyvim.org/).
 
 Agora, vamos instalar o adapter `neotest-elixir` para ser possível interagir com a suite de testes Elixir. Abra seu arquivo `~/.config/nvim/lua/plugins/elixir.lua` (ou crie um novo) e vamos adicionar mais uma seção:
 
-  ```lua
-    { "jfpedroza/neotest-elixir" },
-    {
-      "nvim-neotest/neotest",
-      opts = { adapters = { "neotest-elixir" } },
-    },
-  ```
+```lua
+  { "jfpedroza/neotest-elixir" },
+  {
+    "nvim-neotest/neotest",
+    opts = { adapters = { "neotest-elixir" } },
+  },
+```
 
 Salve o arquivo, e reinicie seu Neovim.
 

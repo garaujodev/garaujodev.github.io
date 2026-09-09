@@ -1,58 +1,42 @@
 ---
 layout: default
 ---
-{%- if page.title -%}
-  <h1 class="page-heading">{{ page.title }}</h1>
-{%- endif -%}
 
-{{ content }}
-
-{%- assign siteposts = site.posts | where: 'language', page.language -%}
-
-{%- if siteposts.size > 0 -%}
+{%- assign siteposts = site.posts | where: 'language', page.language -%} {%
+assign hero_type = site.linguica.hero_type | default: 'wide-hero' %} {% if
+hero_type == 'hero' %} {% include sections/heros/hero.html.liquid %} {% else %}
+{% include sections/heros/wide-hero.html.liquid %} {% endif %} {%- if page.title
+-%}
+<h1 class="page-heading">{{ page.title }}</h1>
+{%- endif -%} {%- if siteposts.size > 0 -%}
+<div class="container">
   <ul class="posts">
     <li class="posts-labelgroup" id="posts-labelgroup">
-      <h1 id="posts-label">posts</h1>
-      {% if site.plainwhite.search %}
-      <div class="search-container">
-        <div class="search-section">
-          <i class="icon-search"></i>
-          <input type="text" name="search" id="searchbar" autocomplete="off" aria-label="search in posts">
-        </div>
-        <div class="search-results" id="search-results" data-placeholder="No Results" style="display: none;"></div>
-      </div>
-      {% endif %}
+      <h1 id="posts-label">Posts</h1>
+
+      {%- if page.language == "en" -%}
+      <a class="btn" href="{{ '/pt-br/' | relative_url }}"
+        >Meus Posts em Português 🇧🇷</a
+      >
+      {%- else -%}
+      <a class="btn" href="{{ '/' | relative_url }}">My English Posts 🇺🇸</a>
+      {%- endif -%}
     </li>
 
     {%- for post in siteposts -%}
-      <li>
-        {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          <h2 class="post-title">{{ post.title | escape }}</h2>
-        </a>
-        <div class="post-meta">
-          <div class="post-date">
-            <i class="icon-calendar"></i>
-            {{ post.date | date: date_format }}
-          </div>
-          {%- if post.categories.size > 0-%}
-          <ul class="post-categories">
-            {%- for tag in post.categories -%}
-            <li>{{ tag }}</li>
-            {%- endfor -%}
-          </ul>
-          {%- endif -%}
-        </div>
-        <div class="post">
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
-        </div>
-      </li>
+    <li>
+      <div class="post-card--mobile">
+        {% include components/posts/post-horizontal-card.html.liquid post=post
+        %}
+      </div>
+      <div class="post-card--desktop">
+        {% include components/posts/post-vertical-card.html.liquid post=post %}
+      </div>
+    </li>
     {%- endfor -%}
   </ul>
-
-  <!-- <p class="feed-subscribe"><svg class="svg-icon orange">
+</div>
+<!-- <p class="feed-subscribe"><svg class="svg-icon orange">
 		<use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
 	</svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p> -->
 {%- endif -%}
